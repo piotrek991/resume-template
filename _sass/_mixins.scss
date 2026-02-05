@@ -41,7 +41,7 @@
 }
 
 @mixin media_larger_than_mobile {
-  @media (min-width: 600px) { @content; }
+  @media (min-width: 800px) { @content; }
 }
 
 @mixin media_mobile {
