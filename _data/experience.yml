@@ -1,19 +1,77 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: "PKO Bank Polski S.A"
+  position: "ETL Developer | Data Engineer"
+  duration: "06.2024 - Present"
+  summary: |
+    <p>At PKO, I quickly became a reliable team member. I was often assigned to projects involving new technologies like LDAP or DataHub, where I had to quickly learn how to use them effectively to get the job done.</p>
+    <ul class="resume-item-list">
+      <li><b>Data Architecture & Warehousing</b> - Maintained Data Warehouse structures in BigQuery.
+        <ul>
+          <li>Developed an automated process to allocate BigQuery storage and compute costs across departments. This required integrating LDAP data for IAM group memberships and calculating costs based on internal BQ metadata. Also created a dashboard in Apache Superset for user-friendly visualization of these metrics.</li>
+          <li>Build metadata ingestion for an internal framework to automate data file processing.</li>
+        </ul>
+      </li>
+      <li><b>Data Loading Framework Development</b> - Built triggers, procedures, and functions to manage process metadata within a PostgreSQL database.
+        <ul>
+          <li>Implemented triggers on Dimension Tables to log detailed changes (Inserts/Updates/Deletes) for auditing.</li>
+          <li>Developed triggers to handle post-load notifications, including calculating next run dates and verifying process dependencies.</li>
+          <li>Refactored and optimized core procedures and functions within the Data Load Framework to improve performance.</li>
+        </ul>
+      </li>
+      <li><b>Internal Process Automation</b> - Developed Python-based tools and standalone binaries to automate internal workflows.
+        <ul>
+          <li>Created a tool to automate the deployment of charts and dashboards in Apache Superset using API-based authentication and requests.</li>
+          <li>Developed a script to retrieve all groups user from internal LDAP for GCP IAM group mapping.</li>
+          <li>Built a monitoring utility to check Service Account key expiration dates and send automated email alerts.</li>
+          <li>Created a parser for Terraform objects declarations in GCP to synchronize data to a PostgreSQL database.</li>
+          <li>Developed a utility to convert Excel sheets to HTML and automate their upload to GCP Buckets.</li>
+        </ul>
+      </li>
+      <li><b>DataHub Platform Development</b> - Contributed to building an enterprise metadata platform.
+        <ul>
+          <li>Automated the creation of Structured Properties, Tags, Business Glossaries, and Domains within DataHub.</li>
+          <li>Developed scripts to establish Data Lineage between objects based on BigQuery/Oracle procedures and Informatica workflows.</li>
+          <li>Implemented a GitLab CI/CD workflow to convert Excel documentation into web-accessible HTML format.</li>
+          <li>Built a Flask-based internal site to provide direct access to object documentation via links from the DataHub UI.</li>
+          <li>Managed deployments to GKE clusters using Helm Charts and custom Docker images (hardened and optimized).</li>
+          <li>Optimized platform performance through Kafka topic partitioning, Elasticsearch index sharding, and fine-tuning environment variables.</li>
+          <li>Implemented an Nginx sidecar proxy for the DataHub frontend to resolve search-related bugs by modifying specific API requests.</li>
+        </ul>
+      </li>
+      <li><b>Apache Superset Development</b> - Managed the platform upgrade and deployment automation.
+        <ul>
+          <li>Developed new Ansible-based tasks to automate the deployment of charts and dashboards.</li>
+          <li>Updated deployment definitions to ensure a smooth transition and compatibility with newer versions.</li>
+        </ul>
+      </li>
+    </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: "DXC Technology"
+  position: "Database Developer"
+  duration: "07.2023 - 05.2024"
+  summary: |
+    <p>My main focus at DXC was delivering custom billing solutions. This required a deep understanding of client requirements and the internal billing ecosystem.</p>
+    <ul class="resume-item-list">
+      <li><b>Billing App Maintenance & Development</b> - Managed end-to-end billing account setup.
+        <ul>
+          <li>Configured Oracle Databases for new billing accounts, including the development of specialized functions, procedures, and views.</li>
+          <li>Developed user interfaces for billing management using the Oracle APEX framework.</li>
+          <li>Created complex analytical queries and reporting dashboards in Oracle APEX to meet client needs.</li>
+          <li>Optimized the internal framework by refactoring legacy code and improving processing speed.</li>
+        </ul>
+      </li>
+    </ul>
 
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: "BOŚ Bank"
+  position: "Data Analyst | Credit Risk Analyst"
+  duration: "06.2008 – 05.2010"
+  summary: |
+    <p>At BOŚ Bank, I took my first steps in the IT world. I was recognized as a highly ambitious person, and my ability to learn quickly allowed me to start supporting my team with technical tasks and take on more responsibilities early on.</p>
+    <ul class="resume-item-list">
+      <li><b>Credit Risk Model Development</b> - Supported the development of new risk analysis models.
+        <ul>
+          <li>Prepared large datasets for credit risk analysis and automated the generation of recurring reports.</li>
+          <li>Developed analytical reports using SQL, PL/SQL, and T-SQL across Oracle and SQL Server environments.</li>
+          <li>Assisted in documenting credit models and performed data analysis using Python and R.</li>
+        </ul>
+      </li>
+    </ul>

@@ -1,13 +1,21 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Postgradute Studies in Data Engineering
+  uni: Politechnika Białostocka
+  year: 2023-2024
+  summary: |
+    <ul>
+      <li>Data Science & Machine Learning: Comprehensive training in Python and R for data analysis, including Machine Learning, Deep Learning (Neural Networks), and NLP.</li>
+      <li>Big Data Ecosystem: Hands-on experience with big data technologies, including Hadoop, Spark, and Distributed Computing frameworks.</li>
+      <li>Data Engineering & Infrastructure: Practical knowledge of SQL, Data Warehousing, and modern DevOps tools like Docker and Kubernetes for data environments.</li>
+      <li>Business Intelligence & Visualization: Experience in solving real-world business problems through data-driven insights and advanced reporting tools.</li>
+    </ul>
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Bachelor of Science in Electronics and Telecommunications
+  uni: Politechnika Białostocka
+  year: 2019 - 2023
+  summary: | 
+    <ul>
+      <li>Knowledge of broadly understood Electronics, Lighting Technology, and Telecommunications</li>
+      <li>Basic knowledge of Relational Databases</li>
+      <li>Designed parking space occupancy control system based on IoT technology and data processing using Python as an engineering thesis</li>
+    </ul>

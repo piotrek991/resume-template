@@ -21,7 +21,7 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    width: 130px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
@@ -110,7 +110,7 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: #0c85b1;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -118,7 +118,7 @@
   width: 220px;
   font-size: 1.375rem;
   @include sans_light;
-  color: #333;
+  color: #fff;
   line-height: 55px;
   @include transition(all .2s ease);
 
@@ -231,4 +231,18 @@
       }
     }
   }
+}
+
+.tg {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tg th, .tg td {
+  width: 50%;
+  vertical-align: top;
+}
+
+.th {
+  vertical-align: top;
 }

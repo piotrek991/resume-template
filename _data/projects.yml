@@ -1,16 +1,20 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Football Data Extraction & Analysis App
+  url: https://github.com/piotrek991/Football-Data-Extraction
+  technologies: Python
+  description: Python application for retrieving player and league statistics. Utilizes Polars for high-speed data processing and multi-format file exports.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Cars Market Analysis
+  url: https://github.com/piotrek991/Cars-Market-Analysis
+  technologies: Python | Apache Spark | Docker | PySpark
+  description: Application to scrape automotive market data for distributed analysis on a Spark cluster via the PySpark API.
+
+- project: Watcher for changes in specific product on E-Commerce Platform
+  url: https://github.com/piotrek991/Watcher-Ecommerce
+  technologies: Python | PostgreSQL | Kafka | Docker
+  description: Python application designed to track and analyse specific product on E-Commerce Platform. Implements an automated trigger system to detect and log changes in product attributes.
+
+- project: Hotel Offers Analysis Tool
+  url: https://github.com/piotrek991/Hotel-Offers-Analysis
+  technologies: Python | Docker
+  description: Python application to check hotel offers that met specific conditions. After retrieving the offers analyse the data for most affordable ones and send e-mail with summary.

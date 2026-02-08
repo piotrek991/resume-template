@@ -1,0 +1,48 @@
+# Skills
+- skill: Umiejętności techniczne
+  description: |
+    <table class="tg"><thead>
+    <tr>
+      <td class="tg-0lax" style="width: 50%;">
+        <ul>
+          <b>Cloud</b>
+            <ul>
+              <li> GCP, BigQuery & GKE – Zarządzanie strukturami hurtowni, alokacją kosztów, wdrożeniami na GKE, Bucketami oraz IAM.</li>
+              <li> Databricks & Apache Spark – Przetwarzanie zbiorów danych na dużą skalę przy użyciu PySpark / DataFrame API / Dataset API.</li>
+              <li> Elasticsearch & Kafka – Optymalizacja wyszukiwania oraz zarządzanie streamingiem danych.</li>
+              <li> PostgreSQL, Oracle & SQL Server – Tworzenie złożonych triggerów, funkcji i procedur. Zarządzanie i optymalizacja wydajności architektury bazodanowej.</li>
+            </ul>
+           <b>Programowanie i Automatyzacja</b>
+            <ul>
+              <li>Python – Tworzenie plików binarnych i narzędzi do automatyzacji zadań. Praca z danymi przy użyciu bibliotek Polars/Pandas. Operacje na API z wykorzystaniem requests/asyncio/httpx. OOP, pisanie testów i logowanie.</li>
+              <li>Linux & Bash – Nawigowanie w środowiskach systemowych i pisanie skryptów do automatyzacji na poziomie systemu.</li>
+              <li>Java – Podstawowa znajomość składni oraz głównych zasad programowania obiektowego (OOP).</li>
+              <li>SQL– Pisanie skryptów SQL w językach PL/SQL, T-SQL, PL/pgSQL oraz GoogleSQL.</li>
+            </ul>
+        </ul>
+      </td>
+      <td class="tg-0lax" style="width: 50%;">
+        <ul>
+          <b>DevOps i Infrastruktura</b>
+            <ul>
+              <li>Kubernetes – Wdrażanie i zarządzanie skonteneryzowanymi aplikacjami.</li>
+              <li>Docker – Tworzenie,hardening i optymalizacja obrazów.</li>
+              <li>CI/CD & Ansible – Budowanie zadań dla Ansible Playbooks. Tworzenie workflow CI/CD w celu automatyzacji procesów dla repozytoriów GIT.</li>
+              <li>Terraform – Deklarowanie zasobów infrastrukturalnych.</li>
+            </ul>
+           <b>Analityka i BI</b>
+            <ul>
+              <li>Apache Superset – Tworzenie dashboardów i wykresów.</li>
+              <li>Analityka w R i Python – Preprocessing danych, analiza statystyczna i kształtowanie danych pod kątem biznesowym.</li>
+            </ul>
+            <b>Umiejętności miękkie</b>
+            <ul>
+              <li>Zwinność technologiczna – Szybkie przyswajanie nowych technologii i narzędzi.</li>
+              <li>Myślenie analityczne – Przekładanie złożonej logiki biznesowej na rozwiązania techniczne.</li>
+              <li>Jasna komunikacja – Prezentowanie procesów technicznych w sposób zrozumiały dla każdego odbiorcy.</li>
+              <li>Praca zespołowa – Budowanie zaufania poprzez branie odpowiedzialności za zadania i bycie rzetelnym partnerem w innowacyjnych projektach.</li>
+            </ul>
+        </ul>
+      </td>
+    </tr></thead>
+    </table>

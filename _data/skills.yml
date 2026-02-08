@@ -1,12 +1,50 @@
 # Skills
 # Organizational leadership
 - skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
-
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
-
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+  description: |
+    <table class="tg"><thead>
+    <tr>
+      <td class="tg-0lax" style="width: 50%;">
+        <ul>
+          <b>Cloud</b>
+            <ul>
+              <li> GCP & BigQuery & GKE - Managing warehouses structures, cost allocations, GKE deployments, Buckets and IAM </li>
+              <li> Databricks & Apache Spark - Processing large-scale datasets using PySpark/DataFrame API/Dataset API</li>
+              <li> Elasticsearch & Kafka - Optimizing searches / managing streaming</li>
+              <li> PostgreSQL & Oracle & SQL Server - Developing complex triggers/functions/procedures. Managing/Optimization of database architecture performance</li>
+              <li> GCP & BigQuery & GKE - Managing warehouses structures, cost allocations, GKE deployments, Buckets and IAM </li>
+            </ul>
+           <b>Programming & Automation</b>
+            <ul>
+              <li>Python - Developing Standalone Binaries and utilities to automate tasks. Working with data using Polars/Panda libraries. API operations using requets/asyncio/httpx libraries. OOP, writing test and logging.</li>
+              <li>Linux & Bash - Navigating trough environments and writing scripts for system-level automation</li>
+              <li>Java - Foundational knowledge of syntax and core OOP principles</li>
+              <li>SQL ( multi - dialect) - Writing SQL scritps across PL/SQL, T-SQL, PL/pgSQL and GoogleSQL</li>
+            </ul>
+        </ul>
+      </td>
+      <td class="tg-0lax" style="width: 50%;">
+        <ul>
+         <b>DevOps & Infrastructure</b>
+            <ul>
+              <li>Kubernetes - Deploying and managing containeraized applications.</li>
+              <li>Docker - Creating, hardening and optimizing images.</li>
+              <li>CI/CD & Ansible: Building tasks for Ansible Playbooks. Developing CI/CD workflows to automate processes for GIT repositories.</li>
+              <li>Terraform - Resources Declarations.</li>
+            </ul>
+           <b>Analytics & BI</b>
+            <ul>
+              <li>Apache Superset - Creating Dashbords/Charts.</li>
+              <li>R & Python Analytics - Data preprocessing, statistical analysis, and shaping data to help </li>
+            </ul>
+            <b>Soft Skills</b>
+            <ul>
+              <li>Technological Agility - Quickly learning new things.</li>
+              <li>Analytical Thinking - Translating complex business logic into technical solutions</li>
+              <li>Clear Communication - Making Technical processes easy to understand for everyone.</li>
+              <li>Team Player -uilding trust by taking ownership of tasks and being a reliable partner in projects involving new technologies.</li>
+            </ul>
+        </ul>
+      </td>
+    </tr></thead>
+    </table>

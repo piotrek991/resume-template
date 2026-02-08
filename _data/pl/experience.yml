@@ -1,0 +1,77 @@
+- company: "PKO Bank Polski S.A"
+  position: "ETL Developer | Data Engineer"
+  duration: "06.2024 - Obecnie"
+  summary: |
+    <p>W PKO szybko udało mi sie zdobyć zaufanie współpracowników. Często przydzielano mnie do projektów wykorzystujących nowe technologie, takie jak LDAP czy DataHub, gdzie musiałem szybko opanować ich obsługę, aby skutecznie realizować zadania.</p>
+    <ul class="resume-item-list">
+      <li><b>Architektura i Hurtownia Danych</b> – Utrzymywanie struktur hurtowni danych w BigQuery.
+        <ul>
+          <li>Opracowanie zautomatyzowanego procesu alokacji kosztów przechowywania i przetwarzania danych w BigQuery na poszczególne departamenty. Wymagało to integracji danych z LDAP (członkostwo w grupach IAM) oraz wyliczania kosztów na podstawie wewnętrznych metadanych BQ. Stworzenie dashboardu w Apache Superset do przejrzystej wizualizacji tych metryk.</li>
+          <li>Budowa skryptów zasilających metadane dla wewnętrznego frameworka w celu automatyzacji przetwarzania plików danych.</li>
+        </ul>
+      </li>
+      <li><b>Rozwój Frameworka Zasilającego Dane</b> – Budowa triggerów, procedur i funkcji do zarządzania metadanymi procesów w bazie PostgreSQL.
+        <ul>
+          <li>Wdrożenie triggerów na tabelach wymiarów w celu logowania szczegółowych zmian na potrzeby audytu.</li>
+          <li>Opracowanie triggerów obsługujących powiadomienia po załadowaniu danych, w tym wyliczanie dat kolejnych uruchomień i weryfikację zależności procesów.</li>
+          <li>Optymalizacja kluczowych procedur oraz funkcji wewnątrz frameworka zasilającego w celu poprawy wydajności.</li>
+        </ul>
+      </li>
+      <li><b>Automatyzacja Procesów Wewnętrznych</b> – Tworzenie narzędzi w Pythonie i plików binarnych do automatyzacji wewnętrznych procesów.
+        <ul>
+          <li>Stworzenie narzędzia do automatyzacji wdrażania wykresów i dashboardów w Apache Superset z wykorzystaniem API.</li>
+          <li>Opracowanie skryptu pobierającego wszystkich użytkowników grup z wewnętrznego LDAP na potrzeby mapowania grup GCP IAM.</li>
+          <li>Budowa narzędzia monitorującego daty wygaśnięcia kluczy kont serwisowych z automatycznymi powiadomieniami e-mail.</li>
+          <li>Stworzenie parsera do Terraform w celu synchronizacji deklaracji obiektów z GCP danych z bazą PostgreSQL.</li>
+          <li>Opracowanie narzędzia do konwersji arkuszy Excel na format HTML i automatyzacja ich wysyłki do Bucketów GCP.</li>
+        </ul>
+      </li>
+      <li><b>Rozwój Platformy DataHub</b> – Udział w budowie platformy metadanych.
+        <ul>
+          <li>Automatyzacja tworzenia właściwości strukturalnych, tagów, słowników biznesowych i domen wewnątrz DataHub.</li>
+          <li>Opracowanie skryptów do ustalania powiązań między obiektami na podstawie procedur BigQuery/Oracle oraz procesów Informatica.</li>
+          <li>Wdrożenie workflowu GitLab CI/CD do konwersji dokumentacji Excel na format HTML</li>
+          <li>Budowa wewnętrznej strony opartej na Flasku, zapewniającej bezpośredni dostęp do dokumentacji obiektów poprzez linki z interfejsu DataHub.</li>
+          <li>Zarządzanie wdrożeniami na klastry GKE przy użyciu Helm Chartów i niestandardowych obrazów Docker</li>
+          <li>Optymalizacja wydajności platformy poprzez partycjonowanie topiców Kafka, shardowanie indeksów Elasticsearch oraz zmianę zmiennych środowiskowych.</li>
+          <li>Wdrożenie Nginx proxy dla frontendu DataHub w celu naprawy błędów wyszukiwania poprzez modyfikację zapytań API.</li>
+        </ul>
+      </li>
+      <li><b>Rozwój Apache Superset</b> – Zarządzanie aktualizacją platformy i automatyzacją wdrożeń.
+        <ul>
+          <li>Opracowanie nowych zadań w Ansible do automatyzacji wdrażania wykresów i dashboardów.</li>
+          <li>Aktualizacja definicji wdrożeniowych w celu zapewnienia płynnego updatu i kompatybilności z nowszymi wersjami.</li>
+        </ul>
+      </li>
+    </ul>
+
+- company: "DXC Technology"
+  position: "Database Developer"
+  duration: "07.2023 - 05.2024"
+  summary: |
+    <p>Moim głównym zadaniem w DXC było dowożenie niestandardowych rozwiązań bilingowych. Wymagało to głębokiego zrozumienia wymagań klienta oraz wewnętrznego ekosystemu rozliczeniowego.</p>
+    <ul class="resume-item-list">
+      <li><b>Utrzymanie i Rozwój Aplikacji Bilingowej</b> – Kompleksowe zarządzanie konfiguracją kont bilingowych.
+        <ul>
+          <li>Konfiguracja baz danych Oracle dla nowych kont bilingowych, w tym tworzenie specjalistycznych funkcji, procedur i widoków.</li>
+          <li>Tworzenie interfejsów użytkownika do zarządzania bilingiem przy użyciu frameworka Oracle APEX.</li>
+          <li>Opracowywanie złożonych zapytań analitycznych i dashboardów raportowych w Oracle APEX zgodnie z potrzebami klientów.</li>
+          <li>Optymalizacja wewnętrznego frameworka poprzez zmiany w kodzie i poprawę szybkości przetwarzania.</li>
+        </ul>
+      </li>
+    </ul>
+
+- company: "BOŚ Bank"
+  position: "Analityk Danych | Analityk Ryzyka Kredytowego"
+  duration: "06.2008 – 05.2010"
+  summary: |
+    <p>W BOŚ Banku stawiałem swoje pierwsze kroki w świecie IT. Szybko została dostrzeżona moja ambicja, a zdolność szybkiego uczenia się pozwoliła mi wcześnie zacząć wspierać zespół w zadaniach technicznych i przyjmować dodatkowe odpowiedzialności.</p>
+    <ul class="resume-item-list">
+      <li><b>Rozwój Modeli Ryzyka Kredytowego</b> – Wsparcie przy budowie nowych modeli analizy ryzyka.
+        <ul>
+          <li>Przygotowywanie zbiorów danych do analizy ryzyka kredytowego oraz automatyzacja generowania raportów cyklicznych.</li>
+          <li>Tworzenie raportów analitycznych przy użyciu SQL, PL/SQL oraz T-SQL w środowiskach Oracle i SQL Server.</li>
+          <li>Pomoc w dokumentowaniu modeli kredytowych oraz analiza danych z wykorzystaniem języków Python i R.</li>
+        </ul>
+      </li>
+    </ul>

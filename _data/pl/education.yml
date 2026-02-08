@@ -1,0 +1,20 @@
+- degree: Studia Podyplomowe - Inżynieria Danych (Data Engineering)
+  uni: Politechnika Białostocka
+  year: 2023-2024
+  summary: |
+    <ul>
+      <li>Data Science i Machine Learning: Kompleksowe szkolenie z języków Python i R pod kątem analizy danych, w tym uczenie maszynowe (Machine Learning), uczenie głębokie (Deep Learning/sieci neuronowe) oraz przetwarzanie języka naturalnego (NLP).</li>
+      <li>Ekosystem Big Data: Praktyczne doświadczenie z technologiami big data, w tym Hadoop, Spark oraz frameworkami do obliczeń rozproszonych.</li>
+      <li>Inżynieria Danych i Infrastruktura: Praktyczna wiedza z zakresu SQL, hurtowni danych oraz nowoczesnych narzędzi DevOps, takich jak Docker i Kubernetes, w środowiskach danych.</li>
+      <li>Business Intelligence i Wizualizacja: Doświadczenie w rozwiązywaniu rzeczywistych problemów biznesowych poprzez wnioski oparte na danych oraz zaawansowane narzędzia raportowe.</li>
+    </ul>
+
+- degree: Elektronika i Telekomunikacja
+  uni: Politechnika Białostocka
+  year: 2019 - 2023
+  summary: | 
+    <ul>
+      <li>Wiedza z zakresu szeroko rozumianej elektroniki, techniki świetlnej oraz telekomunikacji.</li>
+      <li>Podstawowa wiedza z zakresu relacyjnych baz danych.</li>
+      <li>Projekt systemu kontroli zajętości miejsc parkingowych oparty na technologii IoT oraz przetwarzaniu danych w języku Python jako praca inżynierska.</li>
+    </ul>

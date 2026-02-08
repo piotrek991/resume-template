@@ -1,0 +1,19 @@
+- project: Football Data Extraction & Analysis App
+  url: https://github.com/piotrek991/Football-Data-Extraction
+  technologies: Python
+  description: Aplikacja Python do pobierania statystyk zawodników i lig. Wykorzystuje bibliotekę Polars do szybkiego przetwarzania danych oraz eksportu do wielu formatów plików.
+
+- project: Cars Market Analysis
+  url: https://github.com/piotrek991/Cars-Market-Analysis
+  technologies: Python | Apache Spark | Docker | PySpark
+  description: Narzędzie do scrapowania danych z rynku motoryzacyjnego w celu przeprowadzenia analizy rozproszonej na klastrze Spark przy użyciu PySpark API.
+
+- project: Watcher for changes in specific product on E-Commerce Platform
+  url: https://github.com/piotrek991/Watcher-Ecommerce
+  technologies: Python | PostgreSQL | Kafka | Docker
+  description: Aplikacja Python zaprojektowana do śledzenia i analizy wybranych produktów na platformach e-commerce. Wdraża system automatycznych triggerów do wykrywania i logowania zmian w atrybutach produktów.
+
+- project: Hotel Offers Analysis Tool
+  url: https://github.com/piotrek991/Hotel-Offers-Analysis
+  technologies: Python | Docker
+  description: Aplikacja Python do monitorowania ofert hotelowych spełniających określone kryteria. Analizuje pobrane dane w celu znalezienia najkorzystniejszych opcji i wysyła podsumowanie drogą mailową.
