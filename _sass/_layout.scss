@@ -72,3 +72,111 @@
   padding-left: $grid-gutter;
   vertical-align: top;
 }
+/* Main Header Layout */
+.header-flex-wrapper {
+  display: flex;
+  justify-content: space-between; /* Pushes icons to the far right */
+  align-items: center;
+  width: 100%;
+}
+
+.header-left-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.avatar-wrapper .avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  object-fit: cover;
+}
+
+.name-title-stack {
+  text-align: left;
+  .header-name {
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .header-title {
+    margin: 6px 0 0 0;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none; // Deletes default grey line
+  }
+}
+
+/* Vertical Icons on Far Right */
+.icon-bar-vertical {
+  ul, div {
+    display: flex;
+    flex-direction: column; // Stacks icons vertically
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0 60px 0 0;
+  }
+  svg, img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Blue Horizontal Lines */
+.full-width-line {
+  border: none;
+  height: 2px;
+  background-color: #2488ab; // Blue theme
+  margin: 5px 0;
+  width: 100%;
+}
+
+.header-contact-info-centered {
+  text-align: left;
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Description Box Styling */
+.executive-summary-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9; // Light grey box
+  border-left: 5px solid #2488ab; // Blue accent line
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Target the link containing the icon and text */
+.icon-link {
+  display: flex !important;    /* Forces icon and text onto the same line */
+  flex-direction: row;         /* Ensures horizontal alignment */
+  align-items: center;         /* Vertically centers text with the icon */
+  justify-content: flex-start; /* Keeps them together on the left */
+  text-decoration: none;
+  gap: 10px;                   /* Adds space between icon and text */
+  white-space: nowrap;         /* Prevents text from jumping to next line */
+}
+
+/* Ensure the SVG icon doesn't take up 100% width */
+.icon-link svg {
+  width: 24px;                 /* Adjust size as needed */
+  height: 24px;
+  flex-shrink: 0;              /* Prevents the icon from squishing */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Optional: Make the list items vertical if you want a column of links */
+.icon-links {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
