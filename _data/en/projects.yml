@@ -1,0 +1,20 @@
+# Personal projects
+- name: "Football Data Extraction & Analysis"
+  url: https://github.com/piotrek991/Football-Data-Extraction
+  tech: [Python, Polars]
+  description: "Python application retrieving player and league statistics. Uses Polars for fast data processing and multi-format exports."
+
+- name: "Cars Market Analysis"
+  url: https://github.com/piotrek991/Cars-Market-Analysis
+  tech: [Python, PySpark, Apache Spark, Docker]
+  description: "Scrapes automotive market data for distributed analysis on a Spark cluster via the PySpark API."
+
+- name: "E-Commerce Product Watcher"
+  url: https://github.com/piotrek991/Watcher-Ecommerce
+  tech: [Python, PostgreSQL, Kafka, Docker]
+  description: "Tracks selected products on an e-commerce platform. An automated trigger system detects and logs changes in product attributes."
+
+- name: "Hotel Offers Analysis Tool"
+  url: https://github.com/piotrek991/Hotel-Offers-Analysis
+  tech: [Python, Docker]
+  description: "Finds hotel offers matching given criteria, picks the most affordable ones and e-mails a summary."

@@ -1,0 +1,17 @@
+# Education — newest first
+- degree: "Postgraduate Studies in Data Engineering"
+  school: "Białystok University of Technology"
+  years: "2023 – 2024"
+  bullets:
+    - "Data Science & Machine Learning: Python and R for data analysis, Machine Learning, Deep Learning (neural networks) and NLP."
+    - "Big Data ecosystem: hands-on work with Hadoop, Spark and distributed computing frameworks."
+    - "Data Engineering & Infrastructure: SQL, data warehousing, Docker and Kubernetes for data environments."
+    - "Business Intelligence & Visualization: solving real-world business problems with data-driven insights."
+
+- degree: "B.Sc. in Electronics and Telecommunications"
+  school: "Białystok University of Technology"
+  years: "2019 – 2023"
+  bullets:
+    - "Electronics, lighting technology and telecommunications."
+    - "Fundamentals of relational databases."
+    - "Engineering thesis: IoT-based parking occupancy control system with data processing in Python."

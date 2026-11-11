@@ -1,0 +1,28 @@
+<section class="section" aria-labelledby="sec-experience">
+  <h2 id="sec-experience" class="section-title">{{ L.experience }}</h2>
+  <ol class="timeline">
+    {% for job in d.experience %}
+    <li class="job">
+      <div class="job-head">
+        <div>
+          <h3 class="job-company">{{ job.company }}</h3>
+          <p class="job-position">{{ job.position }}</p>
+        </div>
+        <p class="job-dates">{{ job.start }} – {{ job.end }}</p>
+      </div>
+      {% if job.intro %}<p class="job-intro">{{ job.intro }}</p>{% endif %}
+      {% for h in job.highlights %}
+      <div class="highlight">
+        <h4 class="highlight-title">{{ h.title }}{% if h.summary %} <span class="highlight-summary">— {{ h.summary }}</span>{% endif %}</h4>
+        <ul class="bullets">
+          {% for b in h.bullets %}<li>{{ b }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+      {% if job.tech %}
+      <ul class="tags">{% for t in job.tech %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>

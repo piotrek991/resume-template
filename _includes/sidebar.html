@@ -1,0 +1,57 @@
+<aside class="sidebar">
+  <div class="avatar-wrap">
+    <picture>
+      <source srcset="{{ site.author.avatar | relative_url }}" type="image/webp">
+      <img class="avatar" src="{{ site.author.avatar_fallback | relative_url }}" alt="{{ site.author.name }}" width="160" height="160">
+    </picture>
+  </div>
+
+  <nav class="actions no-print" aria-label="Page actions">
+    <a class="btn btn-primary" href="{{ page.pdf | relative_url }}" download>
+      {% include icon.html name="download" %}<span>{{ L.download_pdf }}</span>
+    </a>
+    <a class="btn" href="{{ page.alt_url | relative_url }}" hreflang="{{ page.alt_lang }}" lang="{{ page.alt_lang }}" title="{{ L.switch_lang }}">
+      {% include icon.html name="globe" %}<span>{{ L.switch_lang_code }}</span>
+    </a>
+  </nav>
+
+  <section class="side-block">
+    <h2 class="side-title">{{ L.contact }}</h2>
+    <ul class="contact-list">
+      <li><a href="mailto:{{ site.author.email }}">{% include icon.html name="email" %}<span>{{ site.author.email }}</span></a></li>
+      <li><a href="tel:{{ site.author.phone | remove: ' ' }}">{% include icon.html name="phone" %}<span>{{ site.author.phone }}</span></a></li>
+      {% if site.author.github %}
+      <li><a href="{{ site.author.github }}">{% include icon.html name="github" %}<span>{{ site.author.github | remove: 'https://' }}</span></a></li>
+      {% endif %}
+      {% if site.author.linkedin %}
+      <li><a href="{{ site.author.linkedin }}">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>
+      {% endif %}
+    </ul>
+  </section>
+
+  <section class="side-block">
+    <h2 class="side-title">{{ L.stack }}</h2>
+    <ul class="chips">
+      {% for s in d.skills.core %}<li class="chip">{{ s }}</li>{% endfor %}
+    </ul>
+  </section>
+
+  <section class="side-block">
+    <h2 class="side-title">{{ L.certificates }}</h2>
+    <ul class="cert-list">
+      {% for c in d.certificates %}
+      <li>
+        <a href="{{ c.url }}">{{ c.name }}</a>
+        <span class="muted">{{ c.issuer }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="side-block">
+    <h2 class="side-title">{{ L.interests }}</h2>
+    <ul class="chips chips-soft">
+      {% for i in d.interests %}<li class="chip">{{ i }}</li>{% endfor %}
+    </ul>
+  </section>
+</aside>

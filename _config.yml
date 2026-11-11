@@ -1,60 +1,54 @@
 # Site settings
-title: "CV Piotr Sz"
-description: "Piotr Sz Resume"
+title: "Piotr Szewczul — CV"
+description: "Data Engineer · ETL Engineer · Python Developer. GCP, BigQuery, PostgreSQL, Python, Kubernetes."
+url: "https://piotrek991.github.io"
+baseurl: "/resume-template"
+lang: en
 
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Piotr Szewczul"
-resume_title:                   "Data Engineer \t|\t ETL Engineer \t|\t Python Developer"
+# Excluded from the built site
+exclude:
+  - README.md
+  - CLAUDE.md
+  - AGENTS.md
+  - LICENSE
+  - _vendor
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - .dockerignore
+  - vendor
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "piotrek.szewczul19@gmail.com"
+# ---------------------------------------------------------------------------
+# Resume settings (language-independent).
+# Translatable text lives in _data/<lang>/meta.yml, content in _data/<lang>/*.yml
+# ---------------------------------------------------------------------------
+author:
+  name: "Piotr Szewczul"
+  email: "piotrek.szewczul19@gmail.com"
+  phone: "+48 511 111 369"
+  avatar: "/images/avatar.webp"
+  avatar_fallback: "/images/avatar.png"
+  github: "https://github.com/piotrek991"
+  linkedin: "https://www.linkedin.com/in/piotr-szewczul-70891720b/"
 
-# the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "511 111 369"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+# Show the "open to work" badge
+open_to_work: true
 
-resume_header_contact_info:     "piotrek.szewczul19@gmail.com \t|\t +48 511 111 369"
-display_header_contact_info:    "true"
+# Used by jekyll-seo-tag for og:image / twitter card
+image: "/images/avatar.png"
+social:
+  name: "Piotr Szewczul"
+  links:
+    - "https://github.com/piotrek991"
+    - "https://www.linkedin.com/in/piotr-szewczul-70891720b/"
 
-resume_header_intro: "<p>Data & IT Specialist with over three years of experience in building and optimizing data ecosystems. I specialize in bridging the gap between data engineering and process automation, maintaining composure and efficiency under pressure. I successfully deployed an enterprise-grade DataHub platform, integrating object metadata from multiple internal banking systems. Additionally, I implemented a BigQuery cost allocation mechanism, enabling precise cloud expenditure accounting across business units. As a proactive professional committed to continuous growth, I effectively adapt to new technologies to deliver tangible business value.</p>"
-resume_header_intro_pl: "<p>Specjalista Data & IT z ponad trzyletnim doświadczeniem w budowaniu i optymalizacji ekosystemów danych. Specjalizuję się w łączeniu inżynierii danych z automatyzacją procesów, zachowując spokój i efektywność pod presją czasu. Pomyślnie wdrożyłem korporacyjną platformę DataHub, integrując ją z metadanymi obiektów z wielu wewnętrznych systemów bankowych. Zaimplementowałem mechanizm alokacji kosztów w BigQuery umożliwiający precyzyjne rozliczanie wydatków chmurowych jednostek biznesowych. Jako osoba proaktywna i nastawiona na ciągły rozwój, skutecznie adaptuję nowe technologie, by dostarczać realną wartość biznesową.</p>"
-
-resume_looking_for_work:        "yes"
-
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-#resume_section_recognition:     true
-resume_section_links:           true
-# resume_section_associations:    true
-resume_section_interests:       true
-
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/piotrek991"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/piotr-szewczul-70891720b/"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  # resume_website_url:           "http://joelglovier.com"
-  # resume_medium_url:            "https://medium.com/@jglovier"
-  # resume_website_url:           "http://joelglovier.com"
-  # resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
-
-# Design settings
-resume_theme:                   default
-
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+# Note: restart `jekyll serve` after editing this file.

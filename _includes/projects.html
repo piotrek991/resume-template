@@ -1,0 +1,14 @@
+<section class="section" aria-labelledby="sec-projects">
+  <h2 id="sec-projects" class="section-title">{{ L.projects }}</h2>
+  <div class="cards">
+    {% for p in d.projects %}
+    <article class="card">
+      <h3 class="card-title">
+        {% if p.url %}<a href="{{ p.url }}">{{ p.name }} {% include icon.html name="external" %}</a>{% else %}{{ p.name }}{% endif %}
+      </h3>
+      <p class="card-text">{{ p.description }}</p>
+      <ul class="tags">{% for t in p.tech %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<section class="section" aria-labelledby="sec-skills">
+  <h2 id="sec-skills" class="section-title">{{ L.skills }}</h2>
+  <div class="skill-grid">
+    {% for cat in d.skills.categories %}
+    <div class="skill-cat">
+      <h3 class="skill-cat-title">{{ cat.name }}</h3>
+      <dl class="skill-list">
+        {% for s in cat.items %}
+        <dt>{{ s.name }}</dt>
+        <dd>{{ s.detail }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+    {% endfor %}
+  </div>
+</section>

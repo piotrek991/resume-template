@@ -1,0 +1,30 @@
+# Page-level text for the English version
+title: "Data Engineer · ETL Engineer · Python Developer"
+intro: >-
+  Data & IT specialist with over three years of experience building and optimizing data ecosystems.
+  I bridge data engineering and process automation and stay efficient under pressure.
+  I deployed an enterprise-grade DataHub platform integrating object metadata from multiple internal
+  banking systems, and implemented a BigQuery cost allocation mechanism enabling precise cloud
+  expenditure accounting across business units. Proactive and committed to continuous growth,
+  I adapt quickly to new technologies to deliver tangible business value.
+open_to_work: "Open to new opportunities"
+
+labels:
+  summary: "Summary"
+  experience: "Experience"
+  projects: "Personal Projects"
+  skills: "Skills"
+  education: "Education"
+  certificates: "Certificates"
+  interests: "Interests"
+  stack: "Tech Stack"
+  contact: "Contact"
+  download_pdf: "Download PDF"
+  switch_lang: "Wersja polska"
+  switch_lang_code: "PL"
+  present: "Present"
+
+consent: >-
+  I hereby consent to the processing of my personal data for the purposes necessary for the
+  recruitment process, in accordance with Regulation (EU) 2016/679 of the European Parliament and
+  of the Council of 27 April 2016 (GDPR).

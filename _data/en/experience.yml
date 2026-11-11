@@ -1,0 +1,78 @@
+# Work experience — newest first.
+# Fields: company, position, start, end, intro, tech (list), highlights (title, summary, bullets)
+- company: "PKO Bank Polski S.A."
+  position: "ETL Developer | Data Engineer"
+  start: "06.2024"
+  end: "Present"
+  intro: >-
+    At PKO I quickly became a reliable team member. I am regularly assigned to projects involving
+    new technologies such as LDAP or DataHub, where I have to learn them fast to get the job done.
+  tech: [BigQuery, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, GKE, Helm, Docker, Ansible, Apache Superset, Terraform, GitLab CI]
+  highlights:
+    - title: "Data Architecture & Warehousing"
+      summary: "Maintained Data Warehouse structures in BigQuery."
+      bullets:
+        - "Developed an automated process allocating BigQuery storage and compute costs across departments, integrating LDAP data for IAM group membership with internal BigQuery metadata. Built an Apache Superset dashboard to visualize the metrics."
+        - "Built metadata ingestion for an internal framework that automates data file processing."
+    - title: "Data Loading Framework Development"
+      summary: "Built triggers, procedures and functions managing process metadata in PostgreSQL."
+      bullets:
+        - "Implemented triggers on dimension tables logging detailed changes (inserts/updates/deletes) for auditing."
+        - "Developed post-load notification triggers, including next-run date calculation and process dependency checks."
+        - "Refactored and optimized core procedures and functions of the framework to improve performance."
+    - title: "Internal Process Automation"
+      summary: "Developed Python tools and standalone binaries automating internal workflows."
+      bullets:
+        - "Created a tool automating deployment of Apache Superset charts and dashboards via its API."
+        - "Developed a script retrieving group members from internal LDAP for GCP IAM group mapping."
+        - "Built a monitoring utility checking Service Account key expiration dates and sending e-mail alerts."
+        - "Created a parser for Terraform GCP object declarations, synchronizing them to a PostgreSQL database."
+        - "Developed a utility converting Excel sheets to HTML and uploading them to GCP buckets."
+    - title: "DataHub Platform Development"
+      summary: "Contributed to building an enterprise metadata platform."
+      bullets:
+        - "Automated creation of Structured Properties, Tags, Business Glossaries and Domains in DataHub."
+        - "Developed scripts establishing data lineage from BigQuery/Oracle procedures and Informatica workflows."
+        - "Implemented a GitLab CI/CD workflow converting Excel documentation into web-accessible HTML."
+        - "Built a Flask-based internal site giving direct access to object documentation from the DataHub UI."
+        - "Managed GKE deployments using Helm charts and custom, hardened Docker images."
+        - "Optimized platform performance through Kafka topic partitioning, Elasticsearch index sharding and environment tuning."
+        - "Implemented an Nginx sidecar proxy for the DataHub frontend, fixing search bugs by rewriting specific API requests."
+    - title: "Apache Superset Development"
+      summary: "Managed the platform upgrade and deployment automation."
+      bullets:
+        - "Developed Ansible tasks automating deployment of charts and dashboards."
+        - "Updated deployment definitions to ensure a smooth upgrade and compatibility with newer versions."
+
+- company: "DXC Technology"
+  position: "Database Developer"
+  start: "07.2023"
+  end: "05.2024"
+  intro: >-
+    My main focus at DXC was delivering custom billing solutions, which required a deep understanding
+    of client requirements and the internal billing ecosystem.
+  tech: [Oracle, PL/SQL, Oracle APEX]
+  highlights:
+    - title: "Billing App Maintenance & Development"
+      summary: "Managed end-to-end billing account setup."
+      bullets:
+        - "Configured Oracle databases for new billing accounts, including specialized functions, procedures and views."
+        - "Developed billing management user interfaces in Oracle APEX."
+        - "Created complex analytical queries and reporting dashboards in Oracle APEX for client needs."
+        - "Optimized the internal framework by refactoring legacy code and improving processing speed."
+
+- company: "BOŚ Bank"
+  position: "Data Analyst | Credit Risk Analyst"
+  start: "06.2022"
+  end: "05.2023"
+  intro: >-
+    At BOŚ Bank I took my first steps in IT. My ability to learn quickly let me support the team
+    with technical tasks and take on more responsibility early on.
+  tech: [SQL, PL/SQL, T-SQL, Oracle, SQL Server, Python, R]
+  highlights:
+    - title: "Credit Risk Model Development"
+      summary: "Supported the development of new risk analysis models."
+      bullets:
+        - "Prepared large datasets for credit risk analysis and automated recurring reports."
+        - "Developed analytical reports using SQL, PL/SQL and T-SQL on Oracle and SQL Server."
+        - "Assisted in documenting credit models and performed data analysis in Python and R."

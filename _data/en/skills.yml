@@ -1,0 +1,55 @@
+# core: short tech-stack chips shown in the sidebar
+core: [Python, SQL, BigQuery, GCP, PostgreSQL, Oracle, Apache Spark, Kafka, Elasticsearch, Kubernetes, Docker, Terraform, Ansible, CI/CD, Apache Superset, Linux]
+
+# categories: detailed skills shown in the main column
+categories:
+  - name: "Cloud & Data"
+    items:
+      - name: "GCP · BigQuery · GKE"
+        detail: "Warehouse structures, cost allocation, GKE deployments, buckets and IAM."
+      - name: "Databricks · Apache Spark"
+        detail: "Large-scale data processing with PySpark (DataFrame / Dataset API)."
+      - name: "Elasticsearch · Kafka"
+        detail: "Search optimization and streaming management."
+      - name: "PostgreSQL · Oracle · SQL Server"
+        detail: "Complex triggers, functions and procedures; database performance tuning."
+
+  - name: "Programming & Automation"
+    items:
+      - name: "Python"
+        detail: "Standalone binaries and automation tools; Polars/Pandas; APIs with requests/asyncio/httpx; OOP, tests, logging."
+      - name: "SQL (multi-dialect)"
+        detail: "PL/SQL, T-SQL, PL/pgSQL and GoogleSQL."
+      - name: "Linux · Bash"
+        detail: "Environment navigation and system-level automation scripts."
+      - name: "Java"
+        detail: "Foundational syntax and core OOP principles."
+
+  - name: "DevOps & Infrastructure"
+    items:
+      - name: "Kubernetes · Helm"
+        detail: "Deploying and managing containerized applications."
+      - name: "Docker"
+        detail: "Creating, hardening and optimizing images."
+      - name: "CI/CD · Ansible"
+        detail: "Ansible playbook tasks; CI/CD workflows automating Git repositories."
+      - name: "Terraform"
+        detail: "Resource declarations."
+
+  - name: "Analytics & BI"
+    items:
+      - name: "Apache Superset"
+        detail: "Dashboards and charts, deployment automation via API."
+      - name: "R · Python analytics"
+        detail: "Data preprocessing, statistical analysis and shaping data for business needs."
+
+  - name: "Soft Skills"
+    items:
+      - name: "Technological agility"
+        detail: "Learning new tools quickly."
+      - name: "Analytical thinking"
+        detail: "Translating complex business logic into technical solutions."
+      - name: "Clear communication"
+        detail: "Making technical processes easy to understand for everyone."
+      - name: "Team player"
+        detail: "Taking ownership of tasks and being a reliable partner in projects with new technologies."

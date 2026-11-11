@@ -1,0 +1,31 @@
+# Teksty strony dla wersji polskiej
+title: "Data Engineer · ETL Engineer · Python Developer"
+intro: >-
+  Specjalista Data & IT z ponad trzyletnim doświadczeniem w budowaniu i optymalizacji ekosystemów danych.
+  Łączę inżynierię danych z automatyzacją procesów, zachowując spokój i efektywność pod presją czasu.
+  Wdrożyłem korporacyjną platformę DataHub zintegrowaną z metadanymi obiektów z wielu wewnętrznych
+  systemów bankowych oraz mechanizm alokacji kosztów w BigQuery umożliwiający precyzyjne rozliczanie
+  wydatków chmurowych jednostek biznesowych. Jestem proaktywny, nastawiony na ciągły rozwój i szybko
+  adaptuję nowe technologie, by dostarczać realną wartość biznesową.
+open_to_work: "Otwarty na nowe możliwości"
+
+labels:
+  summary: "Podsumowanie"
+  experience: "Doświadczenie"
+  projects: "Projekty własne"
+  skills: "Umiejętności"
+  education: "Edukacja"
+  certificates: "Certyfikaty"
+  interests: "Zainteresowania"
+  stack: "Technologie"
+  contact: "Kontakt"
+  download_pdf: "Pobierz PDF"
+  switch_lang: "English version"
+  switch_lang_code: "EN"
+  present: "Obecnie"
+
+consent: >-
+  Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu
+  rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia
+  27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych
+  i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
