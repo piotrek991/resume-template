@@ -1,28 +1,36 @@
-<section class="section" aria-labelledby="sec-experience">
-  <h2 id="sec-experience" class="section-title">{{ L.experience }}</h2>
-  <ol class="timeline">
-    {% for job in d.experience %}
-    <li class="job">
-      <div class="job-head">
-        <div>
-          <h3 class="job-company">{{ job.company }}</h3>
-          <p class="job-position">{{ job.position }}</p>
-        </div>
-        <p class="job-dates">{{ job.start }} – {{ job.end }}</p>
+<section class="content-section" aria-labelledby="sec-experience">
+  <header class="section-header section-header-row">
+    <h2 id="sec-experience">{{ L.experience }}</h2>
+    <button type="button" class="toggle-all no-print" data-toggle-all aria-expanded="false"
+            data-expand="{{ L.expand_all }}" data-collapse="{{ L.collapse_all }}">{{ L.expand_all }}</button>
+  </header>
+
+  {% for job in d.experience %}
+  <article class="resume-item">
+    <div class="item-head">
+      <div>
+        <h3 class="resume-item-title">{{ job.company }}</h3>
+        <p class="resume-item-details">{{ job.position }}</p>
       </div>
-      {% if job.intro %}<p class="job-intro">{{ job.intro }}</p>{% endif %}
-      {% for h in job.highlights %}
-      <div class="highlight">
-        <h4 class="highlight-title">{{ h.title }}{% if h.summary %} <span class="highlight-summary">— {{ h.summary }}</span>{% endif %}</h4>
-        <ul class="bullets">
-          {% for b in h.bullets %}<li>{{ b }}</li>{% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-      {% if job.tech %}
-      <ul class="tags">{% for t in job.tech %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
-      {% endif %}
-    </li>
+      <p class="item-dates">{{ job.start }} – {{ job.end }}</p>
+    </div>
+    {% if job.intro %}<p class="resume-item-copy">{{ job.intro }}</p>{% endif %}
+
+    {% for h in job.highlights %}
+    <details class="expandable">
+      <summary>
+        <span class="expandable-title">{{ h.title }}</span>
+        {% if h.summary %}<span class="expandable-summary">{{ h.summary }}</span>{% endif %}
+      </summary>
+      <ul class="bullets">
+        {% for b in h.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+    </details>
     {% endfor %}
-  </ol>
+
+    {% if job.tech %}
+    <ul class="tags">{% for t in job.tech %}<li class="tag">{{ t }}</li>{% endfor %}</ul>
+    {% endif %}
+  </article>
+  {% endfor %}
 </section>

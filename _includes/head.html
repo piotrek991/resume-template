@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
@@ -22,7 +22,7 @@
     "name": {{ site.author.name | jsonify }},
     "jobTitle": {{ d.meta.title | jsonify }},
     "email": {{ site.author.email | prepend: 'mailto:' | jsonify }},
-    "telephone": {{ site.author.phone | jsonify }},
+    {% if site.author.phone %}"telephone": {{ site.author.phone | jsonify }},{% endif %}
     "image": {{ site.author.avatar_fallback | absolute_url | jsonify }},
     "url": {{ page.url | absolute_url | jsonify }},
     "sameAs": [{{ site.author.github | jsonify }}, {{ site.author.linkedin | jsonify }}],

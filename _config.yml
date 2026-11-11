@@ -21,6 +21,8 @@ exclude:
   - AGENTS.md
   - LICENSE
   - _vendor
+  - pdfCvs   # private source CVs (also git-ignored)
+  - scripts
   - Gemfile
   - Gemfile.lock
   - Dockerfile
@@ -34,7 +36,7 @@ exclude:
 author:
   name: "Piotr Szewczul"
   email: "piotrek.szewczul19@gmail.com"
-  phone: "+48 511 111 369"
+  # phone: intentionally not published (personal data). Add `phone: "..."` here to show it again.
   avatar: "/images/avatar.webp"
   avatar_fallback: "/images/avatar.png"
   github: "https://github.com/piotrek991"

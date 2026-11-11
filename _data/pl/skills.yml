@@ -1,55 +1,56 @@
-# core: krótkie etykiety technologii w panelu bocznym
-core: [Python, SQL, BigQuery, GCP, PostgreSQL, Oracle, Apache Spark, Kafka, Elasticsearch, Kubernetes, Docker, Terraform, Ansible, CI/CD, Apache Superset, Linux]
+# key: najważniejsze umiejętności data engineering w jednej linii pod tytułem
+key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadane i lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
 
-# categories: szczegółowe umiejętności w głównej kolumnie
+# core: krótkie etykiety technologii na górze sekcji Umiejętności
+core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
+
+# categories: szczegółowe umiejętności, każda kategoria rozwijana kliknięciem
 categories:
-  - name: "Chmura i dane"
+  - name: "Chmura i platformy danych"
     items:
-      - name: "GCP · BigQuery · GKE"
-        detail: "Struktury hurtowni, alokacja kosztów, wdrożenia na GKE, buckety oraz IAM."
-      - name: "Databricks · Apache Spark"
-        detail: "Przetwarzanie danych na dużą skalę w PySpark (DataFrame / Dataset API)."
-      - name: "Elasticsearch · Kafka"
-        detail: "Optymalizacja wyszukiwania i zarządzanie streamingiem danych."
-      - name: "PostgreSQL · Oracle · SQL Server"
-        detail: "Złożone triggery, funkcje i procedury; optymalizacja wydajności baz danych."
+      - name: "GCP"
+        detail: "BigQuery (struktury hurtowni, alokacja kosztów), GKE, Cloud Storage, IAM."
+      - name: "DataHub"
+        detail: "Metadane, lineage, słowniki biznesowe, domeny."
+      - name: "Apache Spark / Databricks"
+        detail: "PySpark, DataFrame API (studia podyplomowe, projekty własne)."
+      - name: "Kafka · Elasticsearch"
+        detail: "Partycjonowanie, sharding indeksów, tuning."
 
-  - name: "Programowanie i automatyzacja"
+  - name: "Bazy danych i SQL"
+    items:
+      - name: "PostgreSQL · Oracle · SQL Server"
+        detail: "Złożone triggery, funkcje i procedury; optymalizacja wydajności."
+      - name: "Dialekty SQL"
+        detail: "PL/pgSQL, PL/SQL, T-SQL, GoogleSQL."
+
+  - name: "Programowanie"
     items:
       - name: "Python"
-        detail: "Pliki binarne i narzędzia automatyzujące; Polars/Pandas; API z requests/asyncio/httpx; OOP, testy, logowanie."
-      - name: "SQL (wiele dialektów)"
-        detail: "PL/SQL, T-SQL, PL/pgSQL oraz GoogleSQL."
+        detail: "Polars, Pandas, Flask, requests/httpx/asyncio, OOP, testy, logowanie, pliki binarne."
       - name: "Linux · Bash"
-        detail: "Praca w środowiskach systemowych i skrypty automatyzujące."
-      - name: "Java"
-        detail: "Podstawy składni i zasad programowania obiektowego."
+        detail: "Skrypty systemowe."
+      - name: "Java · R"
+        detail: "Java: podstawy (składnia, OOP). R: analiza statystyczna."
 
   - name: "DevOps i infrastruktura"
     items:
-      - name: "Kubernetes · Helm"
-        detail: "Wdrażanie i zarządzanie skonteneryzowanymi aplikacjami."
-      - name: "Docker"
-        detail: "Tworzenie, utwardzanie (hardening) i optymalizacja obrazów."
-      - name: "CI/CD · Ansible"
-        detail: "Zadania dla playbooków Ansible; workflow CI/CD automatyzujące repozytoria Git."
-      - name: "Terraform"
-        detail: "Deklarowanie zasobów infrastruktury."
+      - name: "Docker · Kubernetes"
+        detail: "Hardening obrazów, Helm Charts, wdrożenia na GKE."
+      - name: "CI/CD"
+        detail: "Workflowy GitLab CI/CD, playbooki Ansible."
+      - name: "Terraform · Nginx"
+        detail: "Deklaracje zasobów; reverse / sidecar proxy."
+      - name: "AutomateNow"
+        detail: "Workflowy codziennego przetwarzania danych."
 
   - name: "Analityka i BI"
     items:
       - name: "Apache Superset"
-        detail: "Dashboardy i wykresy, automatyzacja wdrożeń przez API."
-      - name: "Analityka w R i Pythonie"
-        detail: "Preprocessing, analiza statystyczna i przygotowanie danych pod potrzeby biznesu."
+        detail: "Dashboardy, wykresy, datasety, automatyzacja wdrożeń."
+      - name: "Oracle APEX"
+        detail: "Dashboardy raportowe."
 
-  - name: "Umiejętności miękkie"
-    items:
-      - name: "Zwinność technologiczna"
-        detail: "Szybkie przyswajanie nowych technologii i narzędzi."
-      - name: "Myślenie analityczne"
-        detail: "Przekładanie złożonej logiki biznesowej na rozwiązania techniczne."
-      - name: "Jasna komunikacja"
-        detail: "Prezentowanie procesów technicznych w sposób zrozumiały dla każdego."
-      - name: "Praca zespołowa"
-        detail: "Branie odpowiedzialności za zadania i bycie rzetelnym partnerem w projektach z nowymi technologiami."
+# Krótkie linie pod kategoriami umiejętności
+soft: [Szybka nauka, Myślenie analityczne, Jasna komunikacja, Odpowiedzialność za zadania]
+languages: [Angielski – B2/C1, Polski – ojczysty]

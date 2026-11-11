@@ -1,13 +1,25 @@
-# Certificates
+# Certificates — shown as badge cards near the top of the CV.
+# image: path under /images/certs ; issued/expires: free text (omit if unknown)
 - name: "Professional Data Engineer"
   issuer: "Google Cloud"
+  image: /images/certs/gcp-pde.webp
+  issued: "04.2025"
+  expires: "04.2027"
   url: https://www.credly.com/badges/7851e9b8-388f-4996-9dcf-29aa0e35e419
 - name: "Associate Cloud Engineer"
   issuer: "Google Cloud"
+  image: /images/certs/gcp-ace.webp
+  issued: "01.2026"
+  expires: "01.2029"
   url: https://www.credly.com/badges/79eae0bd-67e4-4bea-bf8c-121e42e2f600
 - name: "Oracle Database SQL Certified Associate"
   issuer: "Oracle"
+  code: "1Z0-071"
+  image: /images/certs/oracle-sql.webp
   url: https://catalog-education.oracle.com/ords/certview/sharebadge?id=E5F2F15C4CCEC65A5EAD67854EBB440A18BB333BD7D639A0F43DA30C58F37922
 - name: "Azure Data Fundamentals"
   issuer: "Microsoft"
+  code: "DP-900"
+  image: /images/certs/azure-dp900.webp
+  issued: "02.2023"
   url: https://www.credly.com/badges/4b99fd4d-a538-4a31-8ea4-1d5345d654b2

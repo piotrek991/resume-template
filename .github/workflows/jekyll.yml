@@ -58,7 +58,7 @@ jobs:
             lang="${pair%%:*}"; path="${pair#*:}"
             "$CHROME" --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer \
               --virtual-time-budget=5000 \
-              --print-to-pdf="$PWD/_site/cv-$lang.pdf" "$root$path"
+              --print-to-pdf="$PWD/_site/cv-$lang.pdf" "$root$path?print"
           done
           ls -la _site/*.pdf
 

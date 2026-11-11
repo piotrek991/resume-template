@@ -1,78 +1,74 @@
 # Work experience — newest first.
 # Fields: company, position, start, end, intro, tech (list), highlights (title, summary, bullets)
+# Order highlights strongest-first; recruiters often read only the first one or two.
 - company: "PKO Bank Polski S.A."
   position: "ETL Developer | Data Engineer"
   start: "06.2024"
   end: "Present"
   intro: >-
-    At PKO I quickly became a reliable team member. I am regularly assigned to projects involving
-    new technologies such as LDAP or DataHub, where I have to learn them fast to get the job done.
-  tech: [BigQuery, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, GKE, Helm, Docker, Ansible, Apache Superset, Terraform, GitLab CI]
+    Data warehouse, data-loading framework, metadata platform and internal automation on GCP.
+    Regularly assigned to projects introducing new technologies (DataHub, LDAP integration).
+  tech: [BigQuery, GKE, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, Helm, Docker, GitLab CI/CD, Ansible, Apache Superset, Terraform, Flask, Nginx]
   highlights:
-    - title: "Data Architecture & Warehousing"
-      summary: "Maintained Data Warehouse structures in BigQuery."
-      bullets:
-        - "Developed an automated process allocating BigQuery storage and compute costs across departments, integrating LDAP data for IAM group membership with internal BigQuery metadata. Built an Apache Superset dashboard to visualize the metrics."
-        - "Built metadata ingestion for an internal framework that automates data file processing."
-    - title: "Data Loading Framework Development"
-      summary: "Built triggers, procedures and functions managing process metadata in PostgreSQL."
-      bullets:
-        - "Implemented triggers on dimension tables logging detailed changes (inserts/updates/deletes) for auditing."
-        - "Developed post-load notification triggers, including next-run date calculation and process dependency checks."
-        - "Refactored and optimized core procedures and functions of the framework to improve performance."
-    - title: "Internal Process Automation"
-      summary: "Developed Python tools and standalone binaries automating internal workflows."
-      bullets:
-        - "Created a tool automating deployment of Apache Superset charts and dashboards via its API."
-        - "Developed a script retrieving group members from internal LDAP for GCP IAM group mapping."
-        - "Built a monitoring utility checking Service Account key expiration dates and sending e-mail alerts."
-        - "Created a parser for Terraform GCP object declarations, synchronizing them to a PostgreSQL database."
-        - "Developed a utility converting Excel sheets to HTML and uploading them to GCP buckets."
     - title: "DataHub Platform Development"
-      summary: "Contributed to building an enterprise metadata platform."
+      summary: "Co-built an enterprise metadata platform integrating 4 internal systems and 10,000+ objects."
       bullets:
-        - "Automated creation of Structured Properties, Tags, Business Glossaries and Domains in DataHub."
-        - "Developed scripts establishing data lineage from BigQuery/Oracle procedures and Informatica workflows."
-        - "Implemented a GitLab CI/CD workflow converting Excel documentation into web-accessible HTML."
-        - "Built a Flask-based internal site giving direct access to object documentation from the DataHub UI."
-        - "Managed GKE deployments using Helm charts and custom, hardened Docker images."
-        - "Optimized platform performance through Kafka topic partitioning, Elasticsearch index sharding and environment tuning."
-        - "Implemented an Nginx sidecar proxy for the DataHub frontend, fixing search bugs by rewriting specific API requests."
-    - title: "Apache Superset Development"
-      summary: "Managed the platform upgrade and deployment automation."
+        - "Built data lineage between objects based on BigQuery/Oracle procedures and Informatica workflows."
+        - "Automated creation of Structured Properties, Tags, Business Glossaries and Domains."
+        - "Deployed to GKE with Helm charts and custom, hardened Docker images."
+        - "Tuned performance via Kafka topic partitioning, Elasticsearch index sharding and environment configuration."
+        - "Added an Nginx sidecar proxy to the frontend that fixed search bugs by rewriting specific API requests."
+        - "Built a Flask site giving direct access to object documentation from the DataHub UI, and a GitLab CI/CD workflow converting Excel documentation to HTML."
+    - title: "Data Warehousing & Cost Allocation"
+      summary: "Bank-wide BigQuery chargeback for every department using the GCP BigQuery platform."
       bullets:
-        - "Developed Ansible tasks automating deployment of charts and dashboards."
-        - "Updated deployment definitions to ensure a smooth upgrade and compatibility with newer versions."
+        - "Designed an automated process allocating BigQuery storage and compute costs to departments, combining LDAP/IAM group membership with BigQuery metadata."
+        - "Built an Apache Superset dashboard giving business units visibility of their cloud spend."
+        - "Maintained data warehouse structures in BigQuery and built metadata ingestion for an internal framework automating data file processing."
+    - title: "Data Loading Framework (PostgreSQL)"
+      summary: "Triggers, procedures and functions managing process metadata."
+      bullets:
+        - "Refactored and optimized core procedures and functions, making selected processing steps up to 10x faster."
+        - "Implemented audit triggers on dimension tables logging inserts, updates and deletes."
+        - "Built post-load triggers that calculate next run dates and verify process dependencies."
+    - title: "Internal Process Automation (Python)"
+      summary: "Tools and standalone binaries for internal workflows."
+      bullets:
+        - "Automated deployment of Superset charts and dashboards via its REST API."
+        - "LDAP group export for GCP IAM group mapping; Service Account key-expiry monitor with e-mail alerts."
+        - "Parser syncing GCP Terraform object declarations into PostgreSQL; Excel-to-HTML converter uploading to GCS buckets."
+    - title: "Apache Superset"
+      summary: "Led the platform upgrade."
+      bullets:
+        - "Wrote Ansible tasks for dashboard deployment and updated deployment definitions for newer versions."
+        - "Built dashboards, charts and datasets."
 
 - company: "DXC Technology"
   position: "Database Developer"
   start: "07.2023"
   end: "05.2024"
   intro: >-
-    My main focus at DXC was delivering custom billing solutions, which required a deep understanding
-    of client requirements and the internal billing ecosystem.
+    Delivered custom billing solutions for enterprise clients on Oracle Database and Oracle APEX.
   tech: [Oracle, PL/SQL, Oracle APEX]
   highlights:
-    - title: "Billing App Maintenance & Development"
-      summary: "Managed end-to-end billing account setup."
+    - title: "Billing Solutions"
+      summary: "End-to-end billing account setup for enterprise clients."
       bullets:
-        - "Configured Oracle databases for new billing accounts, including specialized functions, procedures and views."
-        - "Developed billing management user interfaces in Oracle APEX."
-        - "Created complex analytical queries and reporting dashboards in Oracle APEX for client needs."
-        - "Optimized the internal framework by refactoring legacy code and improving processing speed."
+        - "Managed billing account setup: Oracle functions, procedures and views for new accounts."
+        - "Built billing management UIs, complex analytical queries and reporting dashboards in Oracle APEX."
+        - "Refactored legacy code in the internal framework to improve processing speed."
 
 - company: "BOŚ Bank"
   position: "Data Analyst | Credit Risk Analyst"
-  start: "06.2022"
-  end: "05.2023"
+  start: "09.2022"
+  end: "06.2023"
   intro: >-
-    At BOŚ Bank I took my first steps in IT. My ability to learn quickly let me support the team
-    with technical tasks and take on more responsibility early on.
+    First data role; quickly took over technical and automation tasks for the team.
   tech: [SQL, PL/SQL, T-SQL, Oracle, SQL Server, Python, R]
   highlights:
-    - title: "Credit Risk Model Development"
-      summary: "Supported the development of new risk analysis models."
+    - title: "Credit Risk Data & Reporting"
+      summary: "Data preparation and reporting for new credit risk models."
       bullets:
-        - "Prepared large datasets for credit risk analysis and automated recurring reports."
-        - "Developed analytical reports using SQL, PL/SQL and T-SQL on Oracle and SQL Server."
-        - "Assisted in documenting credit models and performed data analysis in Python and R."
+        - "Prepared large datasets for new credit risk models and automated recurring reports."
+        - "Built analytical reports in SQL, PL/SQL and T-SQL on Oracle and SQL Server."
+        - "Analysis and model documentation in Python and R."

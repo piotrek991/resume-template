@@ -1,0 +1,43 @@
+<header class="page-header">
+  <div class="header-top no-print">
+    <a class="lang-switch" href="{{ page.alt_url | relative_url }}" hreflang="{{ page.alt_lang }}" lang="{{ page.alt_lang }}">
+      {% include icon.html name="globe" %}<span>{{ L.switch_lang }}</span>
+    </a>
+  </div>
+
+  <div class="header-flex">
+    <div class="header-left">
+      <picture>
+        <source srcset="{{ site.author.avatar | relative_url }}" type="image/webp">
+        <img class="avatar" src="{{ site.author.avatar_fallback | relative_url }}" alt="{{ site.author.name }}" width="130" height="130">
+      </picture>
+
+      <div class="name-stack">
+        <h1 class="header-name">{{ site.author.name }}</h1>
+        <p class="header-title">{{ d.meta.title }}</p>
+        {% if d.skills.key %}
+        <ul class="key-skills" aria-label="{{ L.skills }}">
+          {% for s in d.skills.key %}<li>{{ s }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+        {% if site.open_to_work %}<p class="badge-open">{{ d.meta.open_to_work }}</p>{% endif %}
+      </div>
+    </div>
+
+    <ul class="icon-links">
+      <li><a class="icon-link" href="mailto:{{ site.author.email }}">{% include icon.html name="email" %}<span>{{ site.author.email }}</span></a></li>
+      {% if site.author.phone %}<li><a class="icon-link" href="tel:{{ site.author.phone | remove: ' ' }}">{% include icon.html name="phone" %}<span>{{ site.author.phone }}</span></a></li>{% endif %}
+      {% if site.author.github %}<li><a class="icon-link" href="{{ site.author.github }}">{% include icon.html name="github" %}<span>GitHub</span></a></li>{% endif %}
+      {% if site.author.linkedin %}<li><a class="icon-link" href="{{ site.author.linkedin }}">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>{% endif %}
+      {%- comment -%} Link back to the online CV — shown only in print/PDF {%- endcomment -%}
+      <li class="print-only"><a class="icon-link" href="{{ page.url | absolute_url }}">{% include icon.html name="globe" %}<span>{{ '/' | absolute_url | remove: 'https://' | remove: 'http://' | split: '?' | first }}</span></a></li>
+      <li class="no-print"><a class="icon-link icon-link-pdf" href="{{ page.pdf | relative_url }}" download>{% include icon.html name="download" %}<span>{{ L.download_pdf }}</span></a></li>
+    </ul>
+  </div>
+
+  <hr class="full-width-line">
+
+  <div class="executive-summary-box">
+    <p>{{ d.meta.intro }}</p>
+  </div>
+</header>

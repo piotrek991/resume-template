@@ -1,55 +1,56 @@
-# core: short tech-stack chips shown in the sidebar
-core: [Python, SQL, BigQuery, GCP, PostgreSQL, Oracle, Apache Spark, Kafka, Elasticsearch, Kubernetes, Docker, Terraform, Ansible, CI/CD, Apache Superset, Linux]
+# key: one-line list of the most important data-engineering skills, shown under the job title
+key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadata & lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
 
-# categories: detailed skills shown in the main column
+# core: short tech-stack tags shown at the top of the Skills section
+core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
+
+# categories: detailed skills, each category is a click-to-expand block
 categories:
-  - name: "Cloud & Data"
+  - name: "Cloud & Data Platforms"
     items:
-      - name: "GCP · BigQuery · GKE"
-        detail: "Warehouse structures, cost allocation, GKE deployments, buckets and IAM."
-      - name: "Databricks · Apache Spark"
-        detail: "Large-scale data processing with PySpark (DataFrame / Dataset API)."
-      - name: "Elasticsearch · Kafka"
-        detail: "Search optimization and streaming management."
-      - name: "PostgreSQL · Oracle · SQL Server"
-        detail: "Complex triggers, functions and procedures; database performance tuning."
+      - name: "GCP"
+        detail: "BigQuery (warehouse structures, cost allocation), GKE, Cloud Storage, IAM."
+      - name: "DataHub"
+        detail: "Metadata, lineage, business glossaries, domains."
+      - name: "Apache Spark / Databricks"
+        detail: "PySpark, DataFrame API (postgraduate studies, personal projects)."
+      - name: "Kafka · Elasticsearch"
+        detail: "Partitioning, index sharding, tuning."
 
-  - name: "Programming & Automation"
+  - name: "Databases & SQL"
+    items:
+      - name: "PostgreSQL · Oracle · SQL Server"
+        detail: "Complex triggers, functions and procedures; performance optimization."
+      - name: "SQL dialects"
+        detail: "PL/pgSQL, PL/SQL, T-SQL, GoogleSQL."
+
+  - name: "Programming"
     items:
       - name: "Python"
-        detail: "Standalone binaries and automation tools; Polars/Pandas; APIs with requests/asyncio/httpx; OOP, tests, logging."
-      - name: "SQL (multi-dialect)"
-        detail: "PL/SQL, T-SQL, PL/pgSQL and GoogleSQL."
+        detail: "Polars, Pandas, Flask, requests/httpx/asyncio, OOP, testing, logging, standalone binaries."
       - name: "Linux · Bash"
-        detail: "Environment navigation and system-level automation scripts."
-      - name: "Java"
-        detail: "Foundational syntax and core OOP principles."
+        detail: "System-level scripting."
+      - name: "Java · R"
+        detail: "Java: foundational (syntax, OOP). R: statistical analysis."
 
   - name: "DevOps & Infrastructure"
     items:
-      - name: "Kubernetes · Helm"
-        detail: "Deploying and managing containerized applications."
-      - name: "Docker"
-        detail: "Creating, hardening and optimizing images."
-      - name: "CI/CD · Ansible"
-        detail: "Ansible playbook tasks; CI/CD workflows automating Git repositories."
-      - name: "Terraform"
-        detail: "Resource declarations."
+      - name: "Docker · Kubernetes"
+        detail: "Hardened images, Helm charts, GKE deployments."
+      - name: "CI/CD"
+        detail: "GitLab CI/CD workflows, Ansible playbooks."
+      - name: "Terraform · Nginx"
+        detail: "Resource declarations; reverse / sidecar proxy."
+      - name: "AutomateNow"
+        detail: "Workflows for daily data processing."
 
   - name: "Analytics & BI"
     items:
       - name: "Apache Superset"
-        detail: "Dashboards and charts, deployment automation via API."
-      - name: "R · Python analytics"
-        detail: "Data preprocessing, statistical analysis and shaping data for business needs."
+        detail: "Dashboards, charts, datasets, deployment automation."
+      - name: "Oracle APEX"
+        detail: "Reporting dashboards."
 
-  - name: "Soft Skills"
-    items:
-      - name: "Technological agility"
-        detail: "Learning new tools quickly."
-      - name: "Analytical thinking"
-        detail: "Translating complex business logic into technical solutions."
-      - name: "Clear communication"
-        detail: "Making technical processes easy to understand for everyone."
-      - name: "Team player"
-        detail: "Taking ownership of tasks and being a reliable partner in projects with new technologies."
+# Short lines shown under the skill categories
+soft: [Fast learner, Analytical thinking, Clear communication, Ownership]
+languages: [English – B2/C1, Polish – native]

@@ -2,3 +2,9 @@ _site
 .sass-cache
 .DS_Store
 _vendor
+
+# Private CV source files: never commit
+pdfCvs/
+*.docx
+_config.private.yml
+.private-build/

@@ -1,12 +1,12 @@
 # Teksty strony dla wersji polskiej
-title: "Data Engineer · ETL Engineer · Python Developer"
+title: "Data Engineer | GCP · Python · PostgreSQL"
 intro: >-
-  Specjalista Data & IT z ponad trzyletnim doświadczeniem w budowaniu i optymalizacji ekosystemów danych.
-  Łączę inżynierię danych z automatyzacją procesów, zachowując spokój i efektywność pod presją czasu.
-  Wdrożyłem korporacyjną platformę DataHub zintegrowaną z metadanymi obiektów z wielu wewnętrznych
-  systemów bankowych oraz mechanizm alokacji kosztów w BigQuery umożliwiający precyzyjne rozliczanie
-  wydatków chmurowych jednostek biznesowych. Jestem proaktywny, nastawiony na ciągły rozwój i szybko
-  adaptuję nowe technologie, by dostarczać realną wartość biznesową.
+  Data Engineer z ponad 4-letnim doświadczeniem w danych bankowych i korporacyjnych: GCP (BigQuery, GKE),
+  Python, PostgreSQL/Oracle i CI/CD. W PKO Banku Polskim współtworzyłem korporacyjną platformę metadanych
+  DataHub obejmującą 4 systemy źródłowe i ponad 10 000 obiektów, zaprojektowałem proces alokacji kosztów
+  BigQuery (storage i compute) na wszystkie departamenty korzystające z platformy oraz zoptymalizowałem
+  framework zasilający dane, przyspieszając wybrane kroki nawet 10-krotnie. Łączę inżynierię danych
+  z automatyzacją (Python, Docker/Kubernetes, GitLab CI/CD).
 open_to_work: "Otwarty na nowe możliwości"
 
 labels:
@@ -14,7 +14,7 @@ labels:
   experience: "Doświadczenie"
   projects: "Projekty własne"
   skills: "Umiejętności"
-  education: "Edukacja"
+  education: "Wykształcenie"
   certificates: "Certyfikaty"
   interests: "Zainteresowania"
   stack: "Technologie"
@@ -23,6 +23,13 @@ labels:
   switch_lang: "English version"
   switch_lang_code: "EN"
   present: "Obecnie"
+  expand_all: "Rozwiń wszystko"
+  collapse_all: "Zwiń wszystko"
+  issued: "Wydany"
+  expires: "Ważny do"
+  verify: "Weryfikuj"
+  soft_skills: "Kompetencje miękkie"
+  languages: "Języki"
 
 consent: >-
   Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu

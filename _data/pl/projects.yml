@@ -1,20 +1,24 @@
-# Projekty własne
-- name: "Football Data Extraction & Analysis"
-  url: https://github.com/piotrek991/Football-Data-Extraction
-  tech: [Python, Polars]
-  description: "Aplikacja w Pythonie pobierająca statystyki zawodników i lig. Wykorzystuje Polars do szybkiego przetwarzania danych i eksportu do wielu formatów."
+# Projekty własne (url opcjonalny)
+- name: "Agregator ofert pracy"
+  tech: [Python, Playwright, SQLite, Windows Task Scheduler]
+  description: "Codzienny scraper ofert z LinkedIn i Just Join IT: scoring względem mojego profilu (poziomy, minimalne wynagrodzenie, typ pracodawcy), historia w SQLite, codzienne maile i podsumowanie najlepszych ofert 2x w tygodniu."
 
 - name: "Cars Market Analysis"
   url: https://github.com/piotrek991/Cars-Market-Analysis
-  tech: [Python, PySpark, Apache Spark, Docker]
-  description: "Scrapowanie danych z rynku motoryzacyjnego i analiza rozproszona na klastrze Spark przy użyciu PySpark API."
+  tech: [Python, Apache Spark, PySpark, Docker]
+  description: "Scrapowanie danych z rynku motoryzacyjnego do analizy rozproszonej na klastrze Spark przez PySpark API."
 
 - name: "E-Commerce Product Watcher"
   url: https://github.com/piotrek991/Watcher-Ecommerce
   tech: [Python, PostgreSQL, Kafka, Docker]
-  description: "Śledzenie wybranych produktów na platformie e-commerce. System automatycznych triggerów wykrywa i loguje zmiany atrybutów produktów."
+  description: "Śledzenie produktów w e-commerce; triggery w bazie wykrywają i logują zmiany atrybutów."
+
+- name: "Football Data Extraction & Analysis"
+  url: https://github.com/piotrek991/Football-Data-Extraction
+  tech: [Python, Polars]
+  description: "Pobieranie statystyk zawodników i lig; Polars do szybkiego przetwarzania i eksportu do wielu formatów."
 
 - name: "Hotel Offers Analysis Tool"
   url: https://github.com/piotrek991/Hotel-Offers-Analysis
   tech: [Python, Docker]
-  description: "Wyszukiwanie ofert hotelowych spełniających zadane kryteria, wybór najkorzystniejszych i wysyłka podsumowania e-mailem."
+  description: "Monitoruje oferty hotelowe, wybiera najkorzystniejsze i wysyła podsumowanie e-mailem."

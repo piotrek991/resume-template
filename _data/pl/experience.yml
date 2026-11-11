@@ -1,78 +1,74 @@
 # Doświadczenie zawodowe — od najnowszego.
 # Pola: company, position, start, end, intro, tech (lista), highlights (title, summary, bullets)
+# Najmocniejsze obszary na początku — rekruter często czyta tylko pierwszy lub dwa.
 - company: "PKO Bank Polski S.A."
   position: "ETL Developer | Data Engineer"
   start: "06.2024"
   end: "Obecnie"
   intro: >-
-    W PKO szybko zdobyłem zaufanie współpracowników. Często trafiam do projektów wykorzystujących nowe
-    technologie, takie jak LDAP czy DataHub, gdzie muszę szybko opanować ich obsługę, aby skutecznie realizować zadania.
-  tech: [BigQuery, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, GKE, Helm, Docker, Ansible, Apache Superset, Terraform, GitLab CI]
+    Hurtownia danych, framework zasilający, platforma metadanych i automatyzacja procesów na GCP;
+    projekty wprowadzające nowe technologie (DataHub, LDAP).
+  tech: [BigQuery, GKE, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, Helm, Docker, GitLab CI/CD, Ansible, Apache Superset, Terraform, Flask, Nginx]
   highlights:
-    - title: "Architektura i hurtownia danych"
-      summary: "Utrzymywanie struktur hurtowni danych w BigQuery."
-      bullets:
-        - "Zautomatyzowany proces alokacji kosztów przechowywania i przetwarzania danych w BigQuery na departamenty — integracja danych z LDAP (członkostwo w grupach IAM) z wewnętrznymi metadanymi BQ. Dashboard w Apache Superset do wizualizacji metryk."
-        - "Budowa zasilania metadanych dla wewnętrznego frameworka automatyzującego przetwarzanie plików danych."
-    - title: "Rozwój frameworka zasilającego dane"
-      summary: "Triggery, procedury i funkcje zarządzające metadanymi procesów w PostgreSQL."
-      bullets:
-        - "Triggery na tabelach wymiarów logujące szczegółowe zmiany (insert/update/delete) na potrzeby audytu."
-        - "Triggery obsługujące powiadomienia po załadowaniu danych, w tym wyliczanie dat kolejnych uruchomień i weryfikację zależności procesów."
-        - "Refaktoryzacja i optymalizacja kluczowych procedur oraz funkcji frameworka w celu poprawy wydajności."
-    - title: "Automatyzacja procesów wewnętrznych"
-      summary: "Narzędzia w Pythonie i pliki binarne automatyzujące wewnętrzne procesy."
-      bullets:
-        - "Narzędzie automatyzujące wdrażanie wykresów i dashboardów w Apache Superset przez API."
-        - "Skrypt pobierający członków grup z wewnętrznego LDAP na potrzeby mapowania grup GCP IAM."
-        - "Narzędzie monitorujące daty wygaśnięcia kluczy kont serwisowych z automatycznymi powiadomieniami e-mail."
-        - "Parser deklaracji obiektów GCP w Terraform synchronizujący dane z bazą PostgreSQL."
-        - "Narzędzie konwertujące arkusze Excel do HTML i wysyłające je do bucketów GCP."
     - title: "Rozwój platformy DataHub"
-      summary: "Udział w budowie korporacyjnej platformy metadanych."
+      summary: "Współtworzenie korporacyjnej platformy metadanych integrującej 4 systemy wewnętrzne i ponad 10 000 obiektów."
       bullets:
-        - "Automatyzacja tworzenia Structured Properties, tagów, słowników biznesowych i domen w DataHub."
-        - "Skrypty ustalające data lineage na podstawie procedur BigQuery/Oracle oraz workflow Informatica."
-        - "Workflow GitLab CI/CD konwertujący dokumentację Excel do formatu HTML."
-        - "Wewnętrzna strona we Flasku zapewniająca bezpośredni dostęp do dokumentacji obiektów z interfejsu DataHub."
-        - "Wdrożenia na klastry GKE przy użyciu Helm Chartów i własnych, utwardzonych obrazów Docker."
-        - "Optymalizacja wydajności: partycjonowanie topiców Kafka, sharding indeksów Elasticsearch, strojenie zmiennych środowiskowych."
-        - "Sidecar proxy Nginx dla frontendu DataHub naprawiający błędy wyszukiwania poprzez modyfikację zapytań API."
-    - title: "Rozwój Apache Superset"
-      summary: "Aktualizacja platformy i automatyzacja wdrożeń."
+        - "Budowa data lineage między obiektami na podstawie procedur BigQuery/Oracle i workflowów Informatica."
+        - "Automatyzacja tworzenia Structured Properties, tagów, słowników biznesowych i domen."
+        - "Wdrożenia na GKE przy użyciu Helm Chartów i własnych, zabezpieczonych obrazów Docker."
+        - "Optymalizacja wydajności: partycjonowanie topiców Kafka, sharding indeksów Elasticsearch, konfiguracja środowiska."
+        - "Nginx jako sidecar proxy frontendu, naprawiający błędy wyszukiwania przez modyfikację wybranych zapytań API."
+        - "Strona we Flasku z bezpośrednim dostępem do dokumentacji obiektów z UI DataHub oraz workflow GitLab CI/CD konwertujący dokumentację Excel do HTML."
+    - title: "Hurtownia danych i alokacja kosztów"
+      summary: "Rozliczanie kosztów BigQuery dla wszystkich departamentów korzystających z platformy GCP BigQuery w banku."
       bullets:
-        - "Nowe zadania Ansible automatyzujące wdrażanie wykresów i dashboardów."
-        - "Aktualizacja definicji wdrożeniowych zapewniająca płynny update i kompatybilność z nowszymi wersjami."
+        - "Zautomatyzowany proces alokacji kosztów storage i compute BigQuery na departamenty, łączący członkostwo w grupach LDAP/IAM z metadanymi BigQuery."
+        - "Dashboard w Apache Superset dający jednostkom biznesowym wgląd w wydatki chmurowe."
+        - "Utrzymanie struktur hurtowni danych w BigQuery oraz zasilanie metadanych dla wewnętrznego frameworka automatyzującego przetwarzanie plików."
+    - title: "Framework zasilający dane (PostgreSQL)"
+      summary: "Triggery, procedury i funkcje zarządzające metadanymi procesów."
+      bullets:
+        - "Refaktoryzacja i optymalizacja kluczowych procedur i funkcji — wybrane kroki przetwarzania nawet 10x szybsze."
+        - "Triggery audytowe na tabelach wymiarów, logujące operacje INSERT, UPDATE i DELETE."
+        - "Triggery po załadowaniu danych, wyliczające daty kolejnych uruchomień i weryfikujące zależności procesów."
+    - title: "Automatyzacja procesów (Python)"
+      summary: "Narzędzia i samodzielne pliki binarne dla wewnętrznych workflowów."
+      bullets:
+        - "Automatyczne wdrażanie wykresów i dashboardów Superset przez REST API."
+        - "Eksport grup z LDAP do mapowania grup GCP IAM; monitoring wygasania kluczy kont serwisowych z alertami e-mail."
+        - "Parser deklaracji obiektów GCP z Terraform do PostgreSQL; konwerter Excel→HTML do bucketów GCS."
+    - title: "Apache Superset"
+      summary: "Przeprowadzenie aktualizacji platformy."
+      bullets:
+        - "Zadania Ansible do wdrażania dashboardów i aktualizacja definicji wdrożeniowych pod nowsze wersje."
+        - "Budowa dashboardów, wykresów i datasetów."
 
 - company: "DXC Technology"
   position: "Database Developer"
   start: "07.2023"
   end: "05.2024"
   intro: >-
-    Moim głównym zadaniem w DXC było dostarczanie niestandardowych rozwiązań bilingowych. Wymagało to
-    głębokiego zrozumienia wymagań klienta oraz wewnętrznego ekosystemu rozliczeniowego.
+    Dostarczanie niestandardowych rozwiązań bilingowych dla klientów korporacyjnych na Oracle Database i Oracle APEX.
   tech: [Oracle, PL/SQL, Oracle APEX]
   highlights:
-    - title: "Utrzymanie i rozwój aplikacji bilingowej"
-      summary: "Kompleksowa konfiguracja kont bilingowych."
+    - title: "Rozwiązania bilingowe"
+      summary: "Kompleksowa konfiguracja kont bilingowych klientów korporacyjnych."
       bullets:
-        - "Konfiguracja baz Oracle dla nowych kont bilingowych, w tym specjalistyczne funkcje, procedury i widoki."
-        - "Interfejsy użytkownika do zarządzania bilingiem we frameworku Oracle APEX."
-        - "Złożone zapytania analityczne i dashboardy raportowe w Oracle APEX według potrzeb klientów."
-        - "Optymalizacja wewnętrznego frameworka poprzez refaktoryzację kodu i poprawę szybkości przetwarzania."
+        - "Konfiguracja kont bilingowych: funkcje, procedury i widoki Oracle dla nowych kont."
+        - "Interfejsy do zarządzania bilingiem, złożone zapytania analityczne i dashboardy raportowe w Oracle APEX."
+        - "Refaktoryzacja kodu wewnętrznego frameworka w celu przyspieszenia przetwarzania."
 
 - company: "BOŚ Bank"
   position: "Analityk Danych | Analityk Ryzyka Kredytowego"
-  start: "06.2022"
-  end: "05.2023"
+  start: "09.2022"
+  end: "06.2023"
   intro: >-
-    W BOŚ Banku stawiałem pierwsze kroki w IT. Zdolność szybkiego uczenia się pozwoliła mi wcześnie
-    wspierać zespół w zadaniach technicznych i przejmować dodatkowe obowiązki.
+    Pierwsza rola w danych; szybko przejąłem zadania techniczne i automatyzacyjne zespołu.
   tech: [SQL, PL/SQL, T-SQL, Oracle, SQL Server, Python, R]
   highlights:
-    - title: "Rozwój modeli ryzyka kredytowego"
-      summary: "Wsparcie przy budowie nowych modeli analizy ryzyka."
+    - title: "Dane i raportowanie ryzyka kredytowego"
+      summary: "Przygotowanie danych i raportowanie dla nowych modeli ryzyka."
       bullets:
-        - "Przygotowywanie dużych zbiorów danych do analizy ryzyka kredytowego i automatyzacja raportów cyklicznych."
-        - "Raporty analityczne w SQL, PL/SQL i T-SQL w środowiskach Oracle i SQL Server."
-        - "Dokumentowanie modeli kredytowych oraz analiza danych w Pythonie i R."
+        - "Przygotowanie dużych zbiorów danych do nowych modeli ryzyka kredytowego i automatyzacja raportów cyklicznych."
+        - "Raporty analityczne w SQL, PL/SQL i T-SQL (Oracle, SQL Server)."
+        - "Analizy i dokumentacja modeli w Pythonie i R."

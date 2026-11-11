@@ -1,12 +1,12 @@
 # Page-level text for the English version
-title: "Data Engineer · ETL Engineer · Python Developer"
+title: "Data Engineer | GCP · Python · PostgreSQL"
 intro: >-
-  Data & IT specialist with over three years of experience building and optimizing data ecosystems.
-  I bridge data engineering and process automation and stay efficient under pressure.
-  I deployed an enterprise-grade DataHub platform integrating object metadata from multiple internal
-  banking systems, and implemented a BigQuery cost allocation mechanism enabling precise cloud
-  expenditure accounting across business units. Proactive and committed to continuous growth,
-  I adapt quickly to new technologies to deliver tangible business value.
+  Data Engineer with 4+ years of experience in banking and enterprise data, working with GCP (BigQuery, GKE),
+  Python, PostgreSQL/Oracle and CI/CD. At PKO Bank Polski I co-built an enterprise DataHub metadata platform
+  covering 4 source systems and 10,000+ objects, designed a BigQuery cost-allocation process that charges
+  storage and compute to every department using the platform, and optimized a data-loading framework,
+  making selected steps up to 10x faster. I connect data engineering with automation, from SQL and
+  PL/pgSQL to Python tooling, Docker/Kubernetes deployments and GitLab CI/CD.
 open_to_work: "Open to new opportunities"
 
 labels:
@@ -23,6 +23,13 @@ labels:
   switch_lang: "Wersja polska"
   switch_lang_code: "PL"
   present: "Present"
+  expand_all: "Expand all"
+  collapse_all: "Collapse all"
+  issued: "Issued"
+  expires: "Valid until"
+  verify: "Verify"
+  soft_skills: "Soft skills"
+  languages: "Languages"
 
 consent: >-
   I hereby consent to the processing of my personal data for the purposes necessary for the

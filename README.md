@@ -28,7 +28,9 @@ When you add an entry, update both `en/` and `pl/`.
 
 ## Layout and styling
 
-- `_layouts/resume.html` is the page skeleton. Each section lives in `_includes/` (`sidebar`, `experience`, `projects`, `skills`, `education`).
+- `_layouts/resume.html` is the page skeleton. Each section lives in `_includes/` (`header`, `certificates`, `experience`, `skills`, `projects`, `education`).
+- Job highlights and skill categories are click-to-expand `<details>` blocks. Experience has an "Expand all" button. Print and PDF output always show everything expanded; the PDF step loads the page with `?print`.
+- Certificate badges are in `images/certs/`. Reference them from `_data/<lang>/certificates.yml` with `image:`.
 - `_sass/_resume.scss` holds all the styles. To change the colour scheme, edit the CSS variables in `:root`. The print/PDF styles are at the bottom of the file.
 
 ## Running locally
@@ -47,6 +49,12 @@ With Docker:
 docker build -t cv .
 docker run --rm -p 4000:4000 -v "$PWD":/home/app cv
 ```
+
+## Private PDF CVs (with phone number)
+
+Run `bash scripts/build-private-cv.sh v3`. It writes `pdfCvs/CV_EN_<year>_v3.pdf` and `CV_PL_…`, which include the phone number and a link to the online CV.
+
+The phone number lives in `_config.private.yml`. That file, `pdfCvs/` and `.private-build/` are all git-ignored, so none of them is ever published.
 
 ## Deploying
 

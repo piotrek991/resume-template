@@ -1,17 +1,12 @@
-# Edukacja — od najnowszej
-- degree: "Studia podyplomowe — Inżynieria Danych (Data Engineering)"
+# Wykształcenie — od najnowszego
+- degree: "Studia podyplomowe – Inżynieria Danych"
   school: "Politechnika Białostocka"
   years: "2023 – 2024"
   bullets:
-    - "Data Science i Machine Learning: Python i R w analizie danych, uczenie maszynowe, deep learning (sieci neuronowe) oraz NLP."
-    - "Ekosystem Big Data: praktyczna praca z Hadoop, Spark i frameworkami obliczeń rozproszonych."
-    - "Inżynieria danych i infrastruktura: SQL, hurtownie danych, Docker i Kubernetes w środowiskach danych."
-    - "Business Intelligence i wizualizacja: rozwiązywanie realnych problemów biznesowych w oparciu o dane."
+    - "Python i R w ML, Deep Learning i NLP; Big Data (Hadoop, Spark), hurtownie danych, Docker i Kubernetes."
 
-- degree: "Inżynier — Elektronika i Telekomunikacja"
+- degree: "Inżynier, Elektronika i Telekomunikacja (studia I stopnia)"
   school: "Politechnika Białostocka"
   years: "2019 – 2023"
   bullets:
-    - "Elektronika, technika świetlna i telekomunikacja."
-    - "Podstawy relacyjnych baz danych."
-    - "Praca inżynierska: system kontroli zajętości miejsc parkingowych oparty na IoT z przetwarzaniem danych w Pythonie."
+    - "Praca inżynierska: system IoT kontroli zajętości miejsc parkingowych z przetwarzaniem danych w Pythonie."

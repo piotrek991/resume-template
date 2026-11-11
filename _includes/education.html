@@ -1,17 +1,17 @@
-<section class="section" aria-labelledby="sec-education">
-  <h2 id="sec-education" class="section-title">{{ L.education }}</h2>
+<section class="content-section" aria-labelledby="sec-education">
+  <header class="section-header"><h2 id="sec-education">{{ L.education }}</h2></header>
   {% for e in d.education %}
-  <div class="edu">
-    <div class="job-head">
+  <article class="resume-item">
+    <div class="item-head">
       <div>
-        <h3 class="job-company">{{ e.degree }}</h3>
-        <p class="job-position">{{ e.school }}</p>
+        <h3 class="resume-item-title">{{ e.school }}</h3>
+        <p class="resume-item-details">{{ e.degree }}</p>
       </div>
-      <p class="job-dates">{{ e.years }}</p>
+      <p class="item-dates">{{ e.years }}</p>
     </div>
     <ul class="bullets">
       {% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}
     </ul>
-  </div>
+  </article>
   {% endfor %}
 </section>

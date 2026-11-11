@@ -5,30 +5,47 @@
 <html lang="{{ lang }}">
   {% include head.html %}
   <body>
-    <div class="page">
-      {% include sidebar.html %}
+    <div class="wrapper">
+      {% include header.html %}
 
-      <main class="main">
-        <header class="hero">
-          <h1 class="hero-name">{{ site.author.name }}</h1>
-          <p class="hero-title">{{ d.meta.title }}</p>
-          {% if site.open_to_work %}<p class="badge-open">{{ d.meta.open_to_work }}</p>{% endif %}
-        </header>
-
-        <section class="section" aria-labelledby="sec-summary">
-          <h2 id="sec-summary" class="section-title">{{ L.summary }}</h2>
-          <p class="summary">{{ d.meta.intro }}</p>
-        </section>
-
+      <main>
+        {% include certificates.html %}
         {% include experience.html %}
-        {% include projects.html %}
         {% include skills.html %}
+        {% include projects.html %}
         {% include education.html %}
 
-        <footer class="consent">
-          <p>{{ d.meta.consent }}</p>
-        </footer>
+        {% if d.interests %}
+        <section class="content-section" aria-labelledby="sec-interests">
+          <header class="section-header"><h2 id="sec-interests">{{ L.interests }}</h2></header>
+          <ul class="tags tags-plain">
+            {% for i in d.interests %}<li class="tag">{{ i }}</li>{% endfor %}
+          </ul>
+        </section>
+        {% endif %}
       </main>
+
+      <footer class="page-footer">
+        <p class="footer-line">{{ d.meta.consent }}</p>
+      </footer>
     </div>
+
+    <script>
+      // Expand / collapse all <details> in a section; force-open everything for print/PDF.
+      (function () {
+        var all = function () { return document.querySelectorAll("details.expandable"); };
+        document.querySelectorAll("[data-toggle-all]").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var open = btn.getAttribute("aria-expanded") !== "true";
+            all().forEach(function (el) { el.open = open; });
+            btn.setAttribute("aria-expanded", open);
+            btn.textContent = open ? btn.dataset.collapse : btn.dataset.expand;
+          });
+        });
+        var openAll = function () { all().forEach(function (el) { el.open = true; }); };
+        window.addEventListener("beforeprint", openAll);
+        if (/[?&]print\b/.test(location.search)) openAll();
+      })();
+    </script>
   </body>
 </html>

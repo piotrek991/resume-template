@@ -1,0 +1,16 @@
+<section class="content-section" aria-labelledby="sec-certificates">
+  <header class="section-header"><h2 id="sec-certificates">{{ L.certificates }}</h2></header>
+  <ul class="cert-grid">
+    {% for c in d.certificates %}
+    <li class="cert-card">
+      <a class="cert-link" href="{{ c.url }}" title="{{ L.verify }}: {{ c.name }}{% if c.issued %} · {{ L.issued }} {{ c.issued }}{% endif %}{% if c.expires %} · {{ L.expires }} {{ c.expires }}{% endif %}">
+        {% if c.image %}<img class="cert-badge" src="{{ c.image | relative_url }}" alt="{{ c.issuer }} — {{ c.name }}" height="26" loading="lazy">{% endif %}
+        <span class="cert-body">
+          <span class="cert-name">{{ c.name }}</span>
+          <span class="cert-issuer">{{ c.issuer }}{% if c.code %} · {{ c.code }}{% endif %}{% if c.expires %} · {{ L.expires | downcase }} {{ c.expires }}{% elsif c.issued %} · {{ c.issued }}{% endif %}</span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
