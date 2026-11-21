@@ -24,15 +24,21 @@
       </div>
     </div>
 
-    <ul class="icon-links">
-      <li><a class="icon-link" href="mailto:{{ site.author.email }}">{% include icon.html name="email" %}<span>{{ site.author.email }}</span></a></li>
-      {% if site.author.phone %}<li><a class="icon-link" href="tel:{{ site.author.phone | remove: ' ' }}">{% include icon.html name="phone" %}<span>{{ site.author.phone }}</span></a></li>{% endif %}
-      {% if site.author.github %}<li><a class="icon-link" href="{{ site.author.github }}">{% include icon.html name="github" %}<span>GitHub</span></a></li>{% endif %}
-      {% if site.author.linkedin %}<li><a class="icon-link" href="{{ site.author.linkedin }}">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>{% endif %}
-      {%- comment -%} Link back to the online CV — shown only in print/PDF {%- endcomment -%}
-      <li class="print-only"><a class="icon-link" href="{{ page.url | absolute_url }}">{% include icon.html name="globe" %}<span>{{ '/' | absolute_url | remove: 'https://' | remove: 'http://' | split: '?' | first }}</span></a></li>
-      <li class="no-print"><a class="icon-link icon-link-pdf" href="{{ page.pdf | relative_url }}" download>{% include icon.html name="download" %}<span>{{ L.download_pdf }}</span></a></li>
-    </ul>
+    <div class="header-right">
+      {%- comment -%} Small icon-only profile links in the top-right corner {%- endcomment -%}
+      <ul class="social-icons">
+        {% if site.author.github %}<li><a class="social-icon" href="{{ site.author.github }}" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a></li>{% endif %}
+        {% if site.author.linkedin %}<li><a class="social-icon" href="{{ site.author.linkedin }}" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a></li>{% endif %}
+        {%- comment -%} Link back to the online CV — shown only in print/PDF {%- endcomment -%}
+        <li class="print-only-inline"><a class="social-icon" href="{{ page.url | absolute_url }}" title="{{ '/' | absolute_url | remove: 'https://' | remove: 'http://' }}" aria-label="Online CV">{% include icon.html name="globe" %}</a></li>
+      </ul>
+
+      <ul class="icon-links">
+        <li><a class="icon-link" href="mailto:{{ site.author.email }}">{% include icon.html name="email" %}<span>{{ site.author.email }}</span></a></li>
+        {% if site.author.phone %}<li><a class="icon-link" href="tel:{{ site.author.phone | remove: ' ' }}">{% include icon.html name="phone" %}<span>{{ site.author.phone }}</span></a></li>{% endif %}
+        <li class="no-print"><a class="icon-link icon-link-pdf" href="{{ page.pdf | relative_url }}" download>{% include icon.html name="download" %}<span>{{ L.download_pdf }}</span></a></li>
+      </ul>
+    </div>
   </div>
 
   <hr class="full-width-line">

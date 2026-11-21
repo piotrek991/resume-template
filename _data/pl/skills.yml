@@ -1,7 +1,7 @@
 # key: najważniejsze umiejętności data engineering w jednej linii pod tytułem
 key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadane i lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
 
-# core: krótkie etykiety technologii na górze sekcji Umiejętności
+# core: pełna lista technologii dla schema.org "knowsAbout" (tylko SEO, nie jest wyświetlana)
 core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
 
 # categories: szczegółowe umiejętności, każda kategoria rozwijana kliknięciem

@@ -1,10 +1,6 @@
 <section class="content-section" aria-labelledby="sec-skills">
   <header class="section-header"><h2 id="sec-skills">{{ L.skills }}</h2></header>
 
-  <ul class="tags tags-core">
-    {% for s in d.skills.core %}<li class="tag">{{ s }}</li>{% endfor %}
-  </ul>
-
   <div class="skill-grid">
     {% for cat in d.skills.categories %}
     <details class="expandable skill-cat">

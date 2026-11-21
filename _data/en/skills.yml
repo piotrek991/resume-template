@@ -1,7 +1,7 @@
 # key: one-line list of the most important data-engineering skills, shown under the job title
 key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadata & lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
 
-# core: short tech-stack tags shown at the top of the Skills section
+# core: full tech list for schema.org "knowsAbout" (SEO only, not rendered on the page)
 core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
 
 # categories: detailed skills, each category is a click-to-expand block
