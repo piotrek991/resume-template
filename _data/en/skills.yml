@@ -1,5 +1,5 @@
 # key: one-line list of the most important data-engineering skills, shown under the job title
-key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadata & lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
+key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub, Kafka, Docker / Kubernetes, GitLab CI/CD]
 
 # core: full tech list for schema.org "knowsAbout" (SEO only, not rendered on the page)
 core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
@@ -9,11 +9,11 @@ categories:
   - name: "Cloud & Data Platforms"
     items:
       - name: "GCP"
-        detail: "BigQuery (warehouse structures, cost allocation), GKE, Cloud Storage, IAM."
+        detail: "BigQuery warehouse structures and cost allocation, GKE, Cloud Storage, IAM."
       - name: "DataHub"
         detail: "Metadata, lineage, business glossaries, domains."
       - name: "Apache Spark / Databricks"
-        detail: "PySpark, DataFrame API (postgraduate studies, personal projects)."
+        detail: "PySpark and DataFrame API, used in postgraduate studies and personal projects."
       - name: "Kafka · Elasticsearch"
         detail: "Partitioning, index sharding, tuning."
 
@@ -31,7 +31,7 @@ categories:
       - name: "Linux · Bash"
         detail: "System-level scripting."
       - name: "Java · R"
-        detail: "Java: foundational (syntax, OOP). R: statistical analysis."
+        detail: "Java: foundations, syntax and OOP. R: statistical analysis."
 
   - name: "DevOps & Infrastructure"
     items:

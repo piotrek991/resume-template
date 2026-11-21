@@ -7,7 +7,7 @@
   end: "Obecnie"
   intro: >-
     Hurtownia danych, framework zasilający, platforma metadanych i automatyzacja procesów na GCP;
-    projekty wprowadzające nowe technologie (DataHub, LDAP).
+    projekty wprowadzające nowe technologie, m.in. DataHub i LDAP.
   tech: [BigQuery, GKE, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, Helm, Docker, GitLab CI/CD, Ansible, Apache Superset, Terraform, Flask, Nginx]
   highlights:
     - title: "Rozwój platformy DataHub"
@@ -25,13 +25,13 @@
         - "Zautomatyzowany proces alokacji kosztów storage i compute BigQuery na departamenty, łączący członkostwo w grupach LDAP/IAM z metadanymi BigQuery."
         - "Dashboard w Apache Superset dający jednostkom biznesowym wgląd w wydatki chmurowe."
         - "Utrzymanie struktur hurtowni danych w BigQuery oraz zasilanie metadanych dla wewnętrznego frameworka automatyzującego przetwarzanie plików."
-    - title: "Framework zasilający dane (PostgreSQL)"
+    - title: "Framework zasilający dane w PostgreSQL"
       summary: "Triggery, procedury i funkcje zarządzające metadanymi procesów."
       bullets:
         - "Refaktoryzacja i optymalizacja kluczowych procedur i funkcji — wybrane kroki przetwarzania nawet 10x szybsze."
         - "Triggery audytowe na tabelach wymiarów, logujące operacje INSERT, UPDATE i DELETE."
         - "Triggery po załadowaniu danych, wyliczające daty kolejnych uruchomień i weryfikujące zależności procesów."
-    - title: "Automatyzacja procesów (Python)"
+    - title: "Automatyzacja procesów w Pythonie"
       summary: "Narzędzia i samodzielne pliki binarne dla wewnętrznych workflowów."
       bullets:
         - "Automatyczne wdrażanie wykresów i dashboardów Superset przez REST API."
@@ -70,5 +70,5 @@
       summary: "Przygotowanie danych i raportowanie dla nowych modeli ryzyka."
       bullets:
         - "Przygotowanie dużych zbiorów danych do nowych modeli ryzyka kredytowego i automatyzacja raportów cyklicznych."
-        - "Raporty analityczne w SQL, PL/SQL i T-SQL (Oracle, SQL Server)."
+        - "Raporty analityczne w SQL, PL/SQL i T-SQL na Oracle i SQL Server."
         - "Analizy i dokumentacja modeli w Pythonie i R."

@@ -1,5 +1,5 @@
 # key: najważniejsze umiejętności data engineering w jednej linii pod tytułem
-key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub (metadane i lineage), Kafka, Docker / Kubernetes, GitLab CI/CD]
+key: [Python, SQL / PL/pgSQL, GCP / BigQuery, PostgreSQL, Oracle, DataHub, Kafka, Docker / Kubernetes, GitLab CI/CD]
 
 # core: pełna lista technologii dla schema.org "knowsAbout" (tylko SEO, nie jest wyświetlana)
 core: [Python, Java, SQL, BigQuery, GCP, GKE, PostgreSQL, Oracle, DataHub, Apache Spark, Kafka, Elasticsearch, Kubernetes, Helm, Docker, Terraform, Ansible, GitLab CI/CD, Apache Superset, Flask, Nginx, AutomateNow, Linux]
@@ -9,11 +9,11 @@ categories:
   - name: "Chmura i platformy danych"
     items:
       - name: "GCP"
-        detail: "BigQuery (struktury hurtowni, alokacja kosztów), GKE, Cloud Storage, IAM."
+        detail: "Struktury hurtowni i alokacja kosztów w BigQuery, GKE, Cloud Storage, IAM."
       - name: "DataHub"
         detail: "Metadane, lineage, słowniki biznesowe, domeny."
       - name: "Apache Spark / Databricks"
-        detail: "PySpark, DataFrame API (studia podyplomowe, projekty własne)."
+        detail: "PySpark i DataFrame API na studiach podyplomowych i w projektach własnych."
       - name: "Kafka · Elasticsearch"
         detail: "Partycjonowanie, sharding indeksów, tuning."
 
@@ -31,7 +31,7 @@ categories:
       - name: "Linux · Bash"
         detail: "Skrypty systemowe."
       - name: "Java · R"
-        detail: "Java: podstawy (składnia, OOP). R: analiza statystyczna."
+        detail: "Java: podstawy, składnia i OOP. R: analiza statystyczna."
 
   - name: "DevOps i infrastruktura"
     items:

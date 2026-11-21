@@ -1,7 +1,7 @@
 # Projekty własne (url opcjonalny)
 - name: "Agregator ofert pracy"
   tech: [Python, Playwright, SQLite, Windows Task Scheduler]
-  description: "Codzienny scraper ofert z LinkedIn i Just Join IT: scoring względem mojego profilu (poziomy, minimalne wynagrodzenie, typ pracodawcy), historia w SQLite, codzienne maile i podsumowanie najlepszych ofert 2x w tygodniu."
+  description: "Codzienny scraper ofert z LinkedIn i Just Join IT: scoring względem mojego profilu, minimalnego wynagrodzenia i typu pracodawcy, historia w SQLite, codzienne maile i podsumowanie najlepszych ofert 2x w tygodniu."
 
 - name: "Cars Market Analysis"
   url: https://github.com/piotrek991/Cars-Market-Analysis

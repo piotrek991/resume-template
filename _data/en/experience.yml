@@ -7,7 +7,7 @@
   end: "Present"
   intro: >-
     Data warehouse, data-loading framework, metadata platform and internal automation on GCP.
-    Regularly assigned to projects introducing new technologies (DataHub, LDAP integration).
+    Regularly assigned to projects introducing new technologies such as DataHub and LDAP integration.
   tech: [BigQuery, GKE, PostgreSQL, Python, DataHub, Kafka, Elasticsearch, Helm, Docker, GitLab CI/CD, Ansible, Apache Superset, Terraform, Flask, Nginx]
   highlights:
     - title: "DataHub Platform Development"
@@ -25,13 +25,13 @@
         - "Designed an automated process allocating BigQuery storage and compute costs to departments, combining LDAP/IAM group membership with BigQuery metadata."
         - "Built an Apache Superset dashboard giving business units visibility of their cloud spend."
         - "Maintained data warehouse structures in BigQuery and built metadata ingestion for an internal framework automating data file processing."
-    - title: "Data Loading Framework (PostgreSQL)"
+    - title: "PostgreSQL Data Loading Framework"
       summary: "Triggers, procedures and functions managing process metadata."
       bullets:
         - "Refactored and optimized core procedures and functions, making selected processing steps up to 10x faster."
         - "Implemented audit triggers on dimension tables logging inserts, updates and deletes."
         - "Built post-load triggers that calculate next run dates and verify process dependencies."
-    - title: "Internal Process Automation (Python)"
+    - title: "Python Process Automation"
       summary: "Tools and standalone binaries for internal workflows."
       bullets:
         - "Automated deployment of Superset charts and dashboards via its REST API."
